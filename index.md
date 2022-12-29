@@ -1,47 +1,62 @@
 ---
-layout: page
-title: Thank You!
-sitemap: false
+layout: welcome
+cover: true
 ---
+<h1><abbr title="'Too Long; Don't Read' means 'This is a summary' 😎" style="font-size:2rem;">TL;DR</abbr></h1>
 
-Thank you for buying the PRO version of Hydejack! 🎉
+**Jeayoung Jeon** is a software engineer for computer vison in [MAXST]{:.heading.flip-title} of South Korea. He has a following scholarly and engineering stacks:
 
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown with my own editor,
-one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
+- **Computer Vision:** Visual-SLAM, SfM and ADAS with FPGA
+- **Data Science:** Supervised Learning, MCTS and Rating Systems
+- **Engineering Math:** Signal Processing, Estimation and Optimization
+- **Dev.:** C# MAUI, C++ WinUI3, Python Jupyter, Unity and Kubernetes
+{: style="margin: 1rem;"}
 
-## First Steps
-Start by reading the [Documentation]{:.heading.flip-title}.
-Specifically, the chapters below should be relevant now:
 
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start with basic configuration.
-{:.related-posts.faded}
+Currently, with enthusiasm, he uses **SfM** to build computer vision apps for **Digital Twin** systems and also builds **DevOps** pipelines for engineering.
+FYI, you can see also [Résumé]{:.heading.flip-title}, [CV]{:.heading.flip-title} and [more contents](#welcome){:.heading.flip-title} about him.
 
-After you've familiarized yourself with Hydejack, you can delete the following folders and files
-containing example content:
+Have a nice day 😊
+{:.faded}
 
-~~~
-├── _featured_categories
-│   └── example.md
-├── _projects
-│   └── *
-├── docs
-├── example
-├── licenses
-├── assets
-│   └── img
-│       ├── blog
-│       ├── docs
-│       └── projects
-├── CHANGELOG.md
-├── forms-by-example.md
-├── LICENSE.md
-└── NOTICE.md
-~~~
+![Logo of this site](assets/icons/icon-128x128.png){:.centered style="margin-top:10rem; margin-bottom:10rem;"}
 
-[documentation]: docs/README.md
-[install]: docs/install.md
-[upgrade]: docs/upgrade.md
-[config]: docs/config.md
+{% include components/dingbat.html %}
+
+
+Are you still there? 😳 Then, please check below!
+{:.faded}
+
+# Welcome🎉
+Hello, again. I'm Jeayoung.
+This is my portfolio site containing my bio and awesome works. It's open to everyone who got interest of me. I wrote full-details about me as simple as possible. Here is the list of contents. Please take a look!:
+- [About]{:.heading.flip-title}: My profiles and skills including: [Résumé]{:.heading.flip-title}, [Curriculum Vitae]{:.heading.flip-title}.
+- [Works]{:.heading.flip-title}: Summerized projects, codes and also fluent abstract of my publications.
+- [Articles]{:.heading.flip-title}: Small talks about news, in-real-life and records of my idea 
+
+
+Here is my latest posts:
+<!--posts-->
+
+If there are suggestions or errata, please comment or [mail me]. I'd really appreciate that ❤️.
+{:.faded}
+
+{% include components/about.html %}{: style="margin-top: 10rem;"}
+
+
+
+[About]: about/ "my-profile --verbose"
+[Résumé]: about/resume/ "My online résumé"
+[Curriculum Vitae]: about/cv/
+[CV]: about/cv/
+[Works]: works/
+[Articles]: articles/
+[Blog]: blog/
+[MAXST]: https://www.linkedin.com/company/maxst/ "LinkedIn profile of MAXST Co., Ltd."
+
+[Mail Me]: mailto:jyjeon@outlook.com?subject=To&nbsp;jyje
+
+
+
+<!-- Exec server -->
+<!-- bundle exec jekyll s -->

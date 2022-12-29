@@ -13,7 +13,7 @@
 home:                  Home
 pages:                 Pages
 posts:                 Posts
-about:                 About
+about:                 About Author
 related_posts:         Related Posts
 other_projects:        Other Projects
 comments:              Comments
@@ -44,9 +44,9 @@ continue_reading:      >
   Continue reading <!--post_title-->
 
 cookies_banner:
-  text:                >
-    This site uses cookies. [Cookies Policy](/cookies-policy/).
-  okay:                Okay
+  text:                > # This site uses cookies. [Cookies Policy](/cookies-policy/).
+    NOTICE👩‍🔧🔧:: **THIS SITE IS UNDER CONSTRUCTION**. Until remaining this section, None of contents in my portfolio is not offitially clearfied. And this site uses only one cookie for this message.
+  okay:                GOT IT
 
 not_found:
   title:               '404: Page Not Found'
@@ -124,12 +124,12 @@ resume:
   email:               Email
   phone:               Phone
   website:             Website
-  work:                Experience
+  work:                Work
   work_title:          <!--position--> at <!--company-->
   highlights:          Highlights
   volunteer:           Volunteer
   volunteer_title:     <!--position--> at <!--organization-->
-  education:           Education
+  education:           Education & Experience
   education_title:     <!--study_type--> in <!--area--> from <!--institution--> with GPA of <!--gpa-->
   courses:             Courses
   awards:              Awards

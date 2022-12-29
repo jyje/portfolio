@@ -1,37 +1,40 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+jyje:
+  name:              Jeayoung Jeon
+  email:             jyjeon@outlook.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
+  about: |
+    This is Jeayoung Jeon [🇰🇷전제영].
+    I'm self-motivated-i-think software engineer with computer vision.
+    Computer vision and data science are my major competences.
+    Tasks for my current vocation is focused on AR, VR and automotives.
+    Recently, I has been dived into DevOps and cross-platform engineering
+  # The user I mentioned supposed to be common customers and vivid developers.
 
   # This photo will be used in the about section
   picture:
-    path:            https://placehold.it/128x128
+    path:            https://avatars.githubusercontent.com/u/109659358 # https://via.placeholder.com/128x128
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+      1x:            https://avatars.githubusercontent.com/u/109659358
+      2x:            https://avatars.githubusercontent.com/u/109659358
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    email:           jyjeon@outlook.com
+    linkedin:        jyje
+    github:          jyje
+    # twitter:         jyjeonline
+    # google:          gwCPQM8AAAAJ
+
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
-    # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
     # vimeo:           <username>
@@ -56,8 +59,7 @@ author1:
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
-    # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    # trello:          <firstnamelastname>    
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
@@ -67,16 +69,17 @@ author1:
     # keybase          <username>
 
 # Another author (optional)
-author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
+semir4in:
+  name:              semir4in
+  email:             semir4in@outlook.com
   about:             |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-    Open `_data/authors.yml` to edit this text.
+#     Open `_data/authors.yml` to edit this text.
 
-  picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
+  picture:           https://avatars.githubusercontent.com/u/41550222?v=4 # https://placehold.it/128x128
+  twitter:           semir4in
+  github:            semir4in
+  tumblr:            semirain
