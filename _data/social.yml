@@ -3,6 +3,9 @@ email:
   name: Email
   icon: icon-mail
   prepend: 'mailto:'
+blog:
+  name: Blog
+  icon: icon-edit
 amazon:
   name: Amazon
   icon: icon-amazon
@@ -18,7 +21,7 @@ google-drive:
   icon: icon-google-drive
 google-scholar:
   name: Google Scholar
-  icon: icon-google # icon-google
+  icon: icon-google-scholar
   prepend: 'https://scholar.google.com/citations?user='
 facebook:
   name: Facebook
