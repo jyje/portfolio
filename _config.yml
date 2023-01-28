@@ -62,7 +62,7 @@ legal:
 
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2023 **Jeayoung Jeon** All rights reserved.
+copyright:             Jeayoung Jeon © 2023
 
 # Format of the permalinks
 permalink:             /:categories/:title/ # /:categories/:year-:month-:day-:title/
