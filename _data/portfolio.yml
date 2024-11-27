@@ -1,0 +1,556 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: Jeayoung Jeon
+  name-english: Jeayoung Jeon
+  label: "MLOps/DevOps Engineer"
+  # picture: "/assets/img/profile/jyje-o2024.jpg" # "https://avatars.githubusercontent.com/u/109659358"
+  email: "jyjeon@outlook.com"
+  linkedin: "jyje"
+  # website: "https://jyje.live"
+  # github: "jyje"
+  googlescholar: "gwCPQM8AAAAJ"
+  summary: {}
+  location:
+    address: "" # "2712 Broadway St"
+    postalCode: "" # "CA 94115"
+    city: "" # "Anyang & Seoul"
+    countryCode: "" # "KR"
+    region: "" # "California"
+  profiles:
+    - network: Github
+      username: Github
+      url: http://github.com/jyje
+    - network: StackShare
+      username: StackShare
+      url: https://stackshare.io/jyje/jyje-pro-stack
+  contents:
+    skills:
+      summary: >
+        Here are my skills and highlighted items are industry-ready.
+
+    portfolio:
+      title: Portfolio
+      summary: >
+        My name is Jeayoung Jeon [🇰🇷전제영], and I'm a software engineer in South Korea. 
+        I'm developing my career with the synergy of **Computer Vision Research Experience** and **Cloud-Native Engineering Experience**.
+        Here is my career history:
+
+         | Duration | Company | Position | Role |
+         | --- | --- | --- | --- |
+         | <span style="font-family:monospace;">2021.01-2024.10 [3Y,10M]</span> | MAXST, Technology Division | Senior | MLOps/DevOps & Computer Vision Engineer |
+         | <span style="font-family:monospace;">2012.03-2020.08 [8Y,6M]</span>  | POSTECH, Department of Electrical Engineering | Integrated | Automotive & Computer Vision Researcher |
+         | <span style="font-family:monospace;">2008.03-2012.02 [4Y]</span>     | kit, School of Electronic Engineering | Bachelor | Information Communication & Digital Signal Processing |
+
+        I'm passionate about **collaboration culture** and **automation** that can achieve the **best results** with **fewer people**.
+        I'm always looking for the **optimal way** to achieve both **performance improvement** and **cost reduction**.
+        Based on my experience and achievements, I hope to have a career that grows with the company.
+        For more details, please visit my <a href='https://jyje.live'><b>portfolio</b></a> and <a href='https://blog.jyje.live'><b>blog (Korean)</b></a>.
+
+projects:
+  -
+    position: "🧑‍💻 Widearth: Digital Twin Platform with Spatial Map & AR Contents"
+    company: MAXST
+    website: https://maxst.com/ENG/main
+    startDate: "2024-01-02"
+    endDate: "2024-10-31"
+    duration: 10 Months
+    results:
+      description: >
+        'Contribute Dev & Ops' <- Built Hybrid Clusters, ML Pipelines, and CI/CD Pipeline [contrib 75%+]
+      items:
+        - header: Main DevOps
+          content: Manage CI/CD for <a href='https://widearth.world'><b>Widearth</b></a> project. Leading <b>40+ deployments</b> for <b>3 months</b>.
+        - header: Robust Hybrid Infra
+          content: Achieved <b>'96% availability/year and 14d downtime'</b> using hybrid clusters and DevOps support.
+        - header: ML Pipeline
+          content: Designed <b>ML APIs and data pipelines</b> in multi-clusters. Reduces costs of public cloud by <b>50%</b>.
+    roles:
+      description: Development of ML pipelines, APIs and Infrastructure
+      items:
+        - header: DevOps
+          content: >
+            Designed CI/CD pipelines for web servers and ML workloads.
+            Set git-flow environments with GitOps and led decision-making for deployments.
+        - header: Hybrid Cluster
+          content: >
+            Built hybrid clusters with AWS EKS and bare-metal Kubernetes.
+            The ML pipelines are executed on on-premise clusters to optimize GPU costs.
+            Backup pipelines are configured on EKS to increase availability.
+        - header: ML Pipeline & API
+          content: >
+            Designed Argo Workflows based ML data pipelines to generate spatial maps.
+            Developed cloud-native API endpoints managing lifecycle of pipelines.
+    skills:
+      description: Core Skills for Project <a href='https://widearth.world'>Widearth</a>
+      items:
+        - AWS EKS
+        - Karpenter
+        - Python FastAPI
+        - Argo Workflows
+        - Argo CD
+
+
+  -
+    position: "🧑‍🔬 MLOps: On-premise MLOps with the Latest Open Source Projects"
+    company: MAXST
+    website: https://maxst.com/ENG/main
+    startDate: "2024-01-02"
+    endDate: "2024-04-30"
+    duration: "6 Months"
+    results:
+      description: >
+        'Initiate MLOps' <- Improve GPU utilization for AI research using Kubeflow, JubeterHub [contrib 90%+]
+      items:
+        - header: MLOps
+          content: >
+            Applied latest open sources to improve the on-premises research environment.
+        - header: GPU Utilization
+          content: >
+            Increased GPU utilization by <b>3 times</b> and conducted more than <b>800 AutoML experiments</b>.
+    roles:
+      description: Built Core MLOps Platform using CNCF Open Source Projects
+      items:
+        # - header: Data Pipeline
+        #   content: >
+        #     Developing both pre-build and instant data pipelines using Argo Workflows.
+        - header: AutoML
+          content: >
+            Making AutoML tuning hyperparameters with Katib and Argo Workflows without pre-build.
+        - header: Distributed Training
+          content: >
+            Developing distributed learning environments using Kubeflow Training Operator.
+        - header: JupyterHub
+          content: >
+            Developed a platform for managing on-demand Jupyter Notebooks, allowing researchers to instantly configure their required research environment.
+    skills:
+      description: Core Skills for On-Premise MLOps
+      items:
+        - Kubeflow/Katib
+        - Kubeflow/Training Operator
+        - Argo Workflows
+        - Grafana
+        - TensorBoard
+
+
+  -
+    position: "🧑‍🔧 DevOps: Development of Hybrid Clusters Providing CI/CD and Chatbot"
+    company: MAXST
+    website: https://maxst.com/ENG/main
+    startDate: "2023-01-01"
+    endDate: "2023-12-31"
+    duration: 12 Months
+    results:
+      description: >
+        'Initiate DevOps' <- Developed Hybrid Clusters using AWS EKS and On-Premise [contrib 75%+]
+      items:
+        - header: Robust Hybrid Cluster
+          content: >
+            Achieved <b>50%+ cost reduction</b> compared to pure cloud infrastructure using on-premises cost-effectiveness.
+        - header: DevOps Culture
+          content: >
+            Propagation of DevOps culture including app modernization and CI/CD. Decision support through monitoring.
+    roles:
+      description: Development of Hybrid Clusters, CI/CD Pipelines, and Chatbot
+      items:
+        - header: Hybrid Cluster
+          content: >
+            Built a hybrid cluster with AWS EKS and on-premise Kubernetes.
+            GPU workloads are executed on on-premise clusters to optimize costs.
+            Web and backup workloads are configured on EKS to increase availability.
+        - header: IaC
+          content: >
+            IaC with Terraform and Ansible to manage the cluster infrastructure:
+            Terraform to set up AWS EKS cluster.
+            Ansible-based Kubespray to set up on-premises cluster.
+        - header: CI/CD
+          content: >
+            Configured fast CI for collaboration using Bitbucket Pipeline.
+            Configured high-performance custom CI using on-premises Argo Workflows.
+            Implemented CD using GitOps with Argo CD and Slackbot.
+            IaC was also configured as CI/CD and pipeline to set up declarative infrastructure.
+    skills:
+      description: Core Skills for Hybrid DevOps
+      items:
+        - Kubernetes
+        - Argo Workflows
+        - AWS EKS
+        - IaC
+        - Terraform
+        - Python/FastAPI
+        - Python/Bolt (Slack)
+
+  -
+    company: MAXST
+    position: 📸 Digital Twin Research Engineer
+    website: https://maxst.com
+    startDate: "2021-01-16"
+    endDate: "2022-12-31"
+    duration: 2 years
+    results:
+      description: >
+        'Proof of Concepts' <- Algorithm research for digital twin systems [contrib 50%]
+      items:
+        - header: Digital Twins
+          content: Research and development of Visual-SLAM and ICP algorithms for digital twin systems
+        - header: Automation
+          content: Development of automated pipelines for data acquisition and analysis
+    roles:
+      description: Development of computer vision algorithms and construction of digital twin systems
+      items:
+        - header: Visual-SLAM & SfM
+          content: >
+            Developed digital image processing algorithms for Visual-SLAM and SfM.
+            Constructed a digital twin system using image processing algorithms.
+        - header: Technical Research Personnel
+          content: >
+            Engaged in computer vision positions related to graduate school majors and performed military alternative service.
+    skills:
+      description: Core skills for digital twin research
+      items:
+        - Computer Vision
+        - SfM
+        - Visual-SLAM
+        - Python
+        - OpenCV
+        - .NET/C#
+        - Unity
+
+
+  -
+    position: 🧑‍🎓 Digital Signal Processing and ADAS Researcher (Integrated Program)
+    company: POSTECH
+    website: "https://eee.postech.ac.kr/"
+    startDate: "2012-01-03"
+    endDate: "2020-08-27"
+    duration: "8 Years"
+    results:
+      description: >
+        'R&D' <- Studying on Automotive Simulations in Virtual Environments and ADAS On-Edge.
+      items:
+        - header: Digital Twins
+          content: Virtual Visual-SLAM for Real-World Environments
+        - header: Edge ADAS
+          content: Research of ADAS including Traffic Sign Detection & Lane Terrain Detection with FPGA
+    roles:
+      description: Studying and researching in the field of digital signal processing and computer vision
+      items:
+        - header: 2018 - 2020
+          content: >
+            <b>Computing and Control Engineering Lab. (Prof. SH, Han)</b>
+            <ul>
+              <li>
+                Thesis:
+                <a href="https://postech-primo.hosted.exlibrisgroup.com/permalink/f/1031dvf/82POSTECH_INST21232402040003286">
+                  Virtual Visual-SLAM for Real-World Environments
+                </a>
+              </li>
+            </ul>
+        - header: 2012 - 2018
+          content: >
+            <b>Advanced Signal Processing Lab. (Prod. H, Jeong)</b>
+            <ul>
+              <li>Real-Time Advanced Driver Assistance Systems using FPGA</li>
+              <li>
+                Research on Traffic Sign & Lane Terrain Detection
+                <ul>
+                  <li>
+                    1st Author:
+                    <a href="https://ieeexplore.ieee.org/abstract/document/6987934">
+                      Polygonal symmetry transform for detecting rectangular traffic signs (IEEE ICASS 2014)
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Research on Stereo Vision & Markov Random Fields
+                <ul>
+                  <li>
+                    3rd Author:
+                    <a href="https://ieeexplore.ieee.org/abstract/document/7351196">
+                      Cost aggregation table: A theoretic derivation on the Markov random field and its relation to message passing (IEEE ICIP 2015)
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+    skills:
+      description: Core Skills for ADAS Research
+      items:
+        - Computer Vision
+        - Digital Signal Processing
+        - Markov Random Fields
+        - ADAS
+        - Traffic Sign Detection
+        - Lane Terrain Detection
+        - MATLAB/Simulink
+        - C/C++
+
+
+work:
+  - company: MAXST
+    position: 💼 Senior Software Engineer [🇰🇷 책임연구원]
+    website: https://maxst.com/ENG/main
+    startDate: "2024-03-01"
+    roles:
+      description: >
+        Developed On-Premise Clusters Providing MLOps for Technology Division in MAXST
+      items:
+        - header: MLOps
+          content: >
+            Architecting and optimizing on-premise Kubernetes clusters to deliver comprehensive MLOps solutions
+        - header: DevOps
+          content: >
+            Building hybrid clusters with AWS EKS and bare-metal Kubernetes.
+            Participated in projects as a DevOps role, contributing to service launches. Propagated DevOps culture, including CI/CD configuration and app modernization.
+        - header: Hybrid
+          content: >
+            Implemented and operated hybrid clusters combining AWS EKS and on-premises Kubernetes. Built on-premises clusters using Ansible and Kubespray, and configured AWS EKS clusters using Terraform.
+    skills:
+      items:
+        - Kubernetes
+        - On-Premise
+        - AWS
+        - Argo Workflows
+        - Data Pipeline
+        - CI/CD
+        - Computer Vision
+        - OpenCV
+
+
+  - company: MAXST
+    position: 💼 Software Engineer [🇰🇷 선임연구원]
+    website: https://maxst.com/ENG/main
+    startDate: "2021-01-16"
+    endDate: "2024-02-28"
+    duration: 3 Years
+    roles:
+      description: >
+        Associate R&D Engineer for Technology Division in MAXST
+      items:
+        - header: Algorithm Research
+          content: >
+            Reviewing computer vision algorithms in state-of-art papers and implementing prototypes.
+        - header: DevOps
+          content: >
+            Building hybrid clusters and providing data pipelines for digital twins.
+        - header: Technical Research Personnel
+          content: >
+            Serving as a substitute for military service for 3 years, engaging in the industry in the related field of computer vision major.
+    skills:
+      items:
+        - Kubernetes
+        - On-Premise
+        - AWS
+        - Argo Workflows
+        - Data Pipeline
+        - CI/CD
+        - Computer Vision
+        - OpenCV
+
+
+skills:
+  - name: MLOps & LLMOps
+    keywords:
+      - Kubeflow*
+      - Data Pipeline*
+      - AutoML Katib*
+      - Training Operator*
+      - JupyterHub*
+      - PyTorch*
+      - OpenCV*
+      - Ollama*
+      - RAG*
+      - OpenAI*
+
+  - name: DevOps
+    keywords:
+      - Kubernetes*
+      - Argo Workflows*
+      - AWS EKS*
+      - Kubespray*
+      - IaC*
+      - Terraform*
+      - Ansible*
+      - Grafana*
+      - Karpenter*
+
+  - name: GitOps
+    keywords:
+      - CI/CD*
+      - Argo CD*
+      - Bitbucket Pipelines*
+      - GitHub Actions*
+      - Kaniko*
+      - Docker/Multi-stage*
+      - Slackbot*
+
+  - name: Application Development
+    keywords:
+      - Python/FastAPI*
+      - Unit Testing*
+      - .NET/WPF*
+      - .NET/MAUI*
+      - Unity
+
+  - name: Programming languages
+    keywords:
+      - Python*
+      - C#*
+      - C/C++
+      - Go
+      - MATLAB
+
+  - name: Tool, OS and Hardware
+    keywords:
+      - Visual Studio Code*
+      - Visual Studio*
+      - Jupyter Notebook
+      - MATLAB/Simulink
+      - Windows*
+      - WSL2*
+      - Ubuntu*
+      - Alpine*
+      - MacOS*
+      - ARM64/Raspberry Pi*
+      - AMD64/Bare Metal*
+      - FPGA
+
+  # - company: "POSTECH"
+  #   position: "Teaching Assistant"
+  #   website: "https://eee.postech.ac.kr/"
+  #   startDate: "2012-09-01"
+  #   endDate: "2014-02-28"
+  #   summary: >
+  #     While pursuing my graduate studies, I also served as a Teaching Assistant for various courses, including:
+  #   highlights:
+  #     - "[2012] EECE233 Signals and Systems"
+  #     - "[2013] EECE454 PC Interface"
+  # - company: "GIST"
+  #   position: "Undergraduate Internship"
+  #   website: "https://me.gist.ac.kr/biomems/index.do"
+  #   startDate: "2010-07-26"
+  #   endDate: "2010-08-15"
+  #   summary: >
+  #     As an undergraduate student, I participated in an internship program at the BioMEMS Lab in GIST, where I engaged in the following tasks:
+  #   highlights:
+  #     - Study on BioMEMSs equivarant to Electronic RLC circuits
+  #     - Preview of Graduate Program and Experiments
+# volunteer:
+#   - organization: "CoderDojo"
+#     position: "Teacher"
+#     website: "https://coderdojo.com/"
+#     startDate: "2012-01-01"
+#     endDate: "2013-01-01"
+#     summary: "Global movement of free coding clubs for young people."
+#     highlights:
+#       - "Awarded 'Teacher of the Month'"
+certificates:
+  - title: "🐈‍⬛ GitHub Foundations"
+    organization: GitHub
+    verified: "2024-11-20"
+    expired: "2027-11-20"
+    description: >
+      A credential that verifies expertise in version control and collaboration tools using GitHub.
+    website: https://www.credly.com/badges/876fa6b3-0b27-4ddf-bbb3-a9d853918566
+  - title: "🐙 CAPA: Certified Argo Project Associate"
+    organization: The Linux Foundation
+    verified: "2024-09-13"
+    expired: "2026-09-13"
+    description: >
+      A credential that verifies expertise in the Kubernetes native DevOps tool, Argo Projects
+    website: https://www.credly.com/badges/ee42c2c7-2ac3-411f-8713-cc26cbec8022
+  - title: "🐳 CKAD: Certified Kubernetes Application Developer"
+    organization: The Linux Foundation
+    verified: "2024-06-01"
+    expired: "2026-06-01"
+    description: >
+      A credential that verifies expertise in developing cloud-native applications using Kubernetes.
+    website: https://www.credly.com/badges/9e072a3a-57d0-403e-8bef-5831d618675c
+  - title: "🐳 CKA: Certified Kubernetes Administrator"
+    organization: The Linux Foundation
+    verified: "2024-03-16"
+    expired: "2027-03-16"
+    description: >
+      A credential that verifies expertise in managing Kubernetes clusters.
+    website: https://www.credly.com/badges/d944bde7-222a-4ce5-b4e6-4e6c84df0ef8
+
+
+education:
+  - institution: "Pohang University of Science and Technology (POSTECH)"
+    website: "https://eee.postech.ac.kr/"
+    area: "Department of Electrical Engineering, Signal Processing & Computer Vision"
+    studyType: "🎓 Master's Degree (Integrated Program)"
+    startDate: "2012-03-01"
+    endDate: "2020-08-31"
+    gpa: "3.2/4.3"
+    # thesis: "가상 환경을 위한 Visual-SLAM 알고리즘"
+    # courses:
+    #   - Advanced Driver Assistance Systems (ADAS)
+    #   - Simultaneous Localization and Mapping (SLAM)
+    #   - Computer Vision Algorithms
+  - institution: "Kumoh National Institute of Technology (kit)"
+    website: "https://eng.kumoh.ac.kr/eng"
+    area: "School of Electronic Engineering, Electronic Communication"
+    studyType: "🎓 Bachelor's Degree"
+    startDate: "2008-03-01"
+    endDate: "2012-02-28"
+    gpa: "4.3/4.5"
+    # courses:
+    #   - Digital Signal Processing
+    #   - Visual Light Communication
+    #   - Electronic Communication with Complex Analysis
+    #   - Finite Programmable Gate Array (FPGA)
+# awards:
+#   - title: "Digital Compression Pioneer Award"
+#     date: "2014-11-01"
+#     awarder: "Techcrunch"
+#     summary: "There is no spoon."
+# publications:
+#   -
+#     name: "Video compression for 3d media"
+#     publisher: "Hooli"
+#     releaseDate: "2014-10-01"
+#     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#     summary: "Innovative middle-out compression algorithm that changes the way we store data."
+#   -
+#     name: "A Study on a Visible Light Communication using LED in Under-water Environment"
+#     publisher: "Daehee Lee, Ki-Sung Park, <u>Jea-Young Jeon</u>, Yeon-Mo Yang"
+#     releaseDate: "2011-04-22"
+#     website: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE01951197"
+#     # summary: "Innovative middle-out compression algorithm that changes the way we store data."
+#   -
+#     name: 
+#     authors:
+#     publisher: 
+#     issue: 
+#     releaseDate: 
+#     url: 
+
+
+languages:
+  - language: "Korean"
+    fluency: "Native"
+  - language: "English"
+    fluency: "Working Proficiency"
+
+interests:
+  - name: "Edge"
+    keywords:
+      - "Raspberry Pi Cluster"
+  - name: "Cluster Optimization"
+    keywords:
+      - "Karpenter"
+      - "BI using Grafana (PLG)"
+  - name: "CNCF Projects"
+    keywords:
+      - "Kubeflow"
+      - "Argo Projects"
+
+
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
