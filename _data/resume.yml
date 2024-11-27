@@ -5,12 +5,12 @@ basics:
   name: Jeayoung Jeon
   name-english: Jeayoung Jeon
   label: "MLOps/DevOps and AI Engineer"
-  # picture: "/assets/img/profile/jyje-o2024.jpg" # "https://avatars.githubusercontent.com/u/109659358"
+  # picture: "/assets/img/profile/jyje-o2024.jpg"
   email: "jyjeon@outlook.com"
   linkedin: "jyje"
-  # website: "https://jyje.live"
+  website: "https://jyje.live"
   # github: "jyje"
-  googlescholar: "gwCPQM8AAAAJ"
+  # googlescholar: "gwCPQM8AAAAJ"
   summary: >
     This is Jeayoung Jeon [🇰🇷 전제영].
     I'm a software engineer in Seoul, South Korea.
@@ -32,12 +32,13 @@ basics:
       url: https://stackshare.io/jyje/jyje-pro-stack
   contents:
     skills:
-      summary: Highlighted items are specialized in industry-ready.
-
+      note: "Highlighted items are specialized in industry-ready."
+    publications:
+      note: "The full list of my publications are available on [Google Scholar](https://scholar.google.com/citations?user=gwCPQM8AAAAJ&hl=ko)."
     resume:
       title: Résumé
       summary: >
-        My name is Jeayoung Jeon [전제영], and I'm a software engineer in Seoul, South Korea. I also specialize in:
+        My name is Jeayoung Jeon [전제영], and I'm an MLOps engineer in Seoul, South Korea. I also specialize in:
 
           - 🐳 Developing **MLOps (APIs, Pipelines)** and **AI/LLM Platforms** in cloud-native environments.
           - 🧑‍🔧 Developing **Hybrid Kubernetes Clusters** for **High Availability** and **GPU Cost Reduction**.
@@ -280,7 +281,7 @@ awards:
     title: "🏅 NAVER Power KiN 2011"
     date: "2012-01-01"
     awarder: "NAVER"
-    summary: "[Activity] Knowledge Export in `Electronics Engineering, Mathematics and Programming fields`. For 2009-2011, as a knowledge volunteer, selected as a MVP in 2012 / Total number of answers 723, Selection ratio 98.1%"
+    summary: "[Activity] Knowledge Export in `Electronics Engineering, Mathematics and Programming fields`. Active 2009-2011, Selected as a MVP in 2012 / Total number of answers 723, Selection ratio 98.1%"
     website: "https://m.site.naver.com/1y6qP"
 
 publications:
@@ -315,7 +316,7 @@ publications:
     website: "https://doi.org/10.1109/ICCAS.2014.6987934"
   -
     name: "🎓 A Study on a Visible Light Communication using LED in Under-water Environment"
-    publisher: "ICS-KIEE, Thesis"
+    publisher: "ICS-KIEE"
     authors: "Daehee Lee, Ki-Sung Park, <u>Jea-Young Jeon</u>, Yeon-Mo Yang"
     contribution: "1st, equivalent"
     releaseDate: "2011-04-22"
@@ -364,6 +365,12 @@ languages:
     fluency: "Working Proficiency"
 
 interests:
+  -
+    name: "DevOps Culture"
+    keywords:
+      - "Coop First, Tech Next"
+      - "Automate as Possible"
+      - "Internal Development Platform"
   -
     name: "Cost Efficiency"
     keywords:

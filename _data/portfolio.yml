@@ -4,13 +4,13 @@
 basics:
   name: Jeayoung Jeon
   name-english: Jeayoung Jeon
-  label: "MLOps/DevOps Engineer"
-  # picture: "/assets/img/profile/jyje-o2024.jpg" # "https://avatars.githubusercontent.com/u/109659358"
+  label: "MLOps/DevOps and AI Engineer"
+  # picture: "/assets/img/profile/jyje-o2024.jpg"
   email: "jyjeon@outlook.com"
   linkedin: "jyje"
-  # website: "https://jyje.live"
+  website: "https://jyje.live"
   # github: "jyje"
-  googlescholar: "gwCPQM8AAAAJ"
+  # googlescholar: "gwCPQM8AAAAJ"
   summary: {}
   location:
     address: "" # "2712 Broadway St"
@@ -31,7 +31,7 @@ basics:
         Here are my skills and highlighted items are industry-ready.
 
     portfolio:
-      title: Portfolio
+      title: Project Portfolio
       summary: >
         My name is Jeayoung Jeon [🇰🇷전제영], and I'm a software engineer in South Korea. 
         I'm developing my career with the synergy of **Computer Vision Research Experience** and **Cloud-Native Engineering Experience**.

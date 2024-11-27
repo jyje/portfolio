@@ -271,6 +271,7 @@
   @media screen and (min-width: $break-point-5) {
     .fr { float: right }
     .column-3-5 { width: 66.67% }
+    .column-3-0 { width: 66.67% }
     .column-2-5 { width: 33.33% }
   }
 
@@ -279,6 +280,9 @@
       $helper: $content-width-5 / 2 - $content-margin-5;
       width: calc(50vw + #{$helper});
       > .column-3-5 { 
+        width: $content-width-5;
+      }
+      > .column-3-0 { 
         width: $content-width-5;
       }
       > .column-2-5 { 
@@ -343,6 +347,7 @@
     article > .note { padding-right: 11rem }
     .fr { float: right }
     .column-3-5 { width: 70% }
+    .column-3-0 { width: 100% }
     .column-2-5 { width: 30% }
   }
 }

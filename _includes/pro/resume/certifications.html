@@ -9,7 +9,7 @@
   <section class="certificates-item">
     <header class="{% unless forloop.first %}mt1{% endunless %}">
       {% if cert.verified.size > 0 %}
-        <p class="faded">
+        <p class="faded from-to">
           {% include components/verified-expired.html verified=cert.verified expired=cert.expired format=from_to_format %}
         </p>
       {% endif %}

@@ -4,13 +4,13 @@
 basics:
   name: 전제영
   name-english: Jeayoung Jeon
-  label: "MLOps/DevOps Engineer"
+  label: "MLOps/DevOps and AI Engineer"
   # picture: "/assets/img/profile/jyje-o2024.jpg"
   email: "jyjeon@outlook.com"
   linkedin: "jyje"
-  # website: "https://jyje.live"
+  website: "https://jyje.live"
   # github: "jyje"
-  googlescholar: "gwCPQM8AAAAJ"
+  # googlescholar: "gwCPQM8AAAAJ"
   summary: {}
   location:
     address: "" # "2712 Broadway St"

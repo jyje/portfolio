@@ -5,11 +5,12 @@
     {{ strings.resume.publications | default:"Publications" }}
     <span class="symbol {{ icons.publications | default:'icon-book' }}"></span>
   </h2>
+  {% include components/message.html class="note" text=basics.contents.publications.note alt="" %}
   {% for pub in resume.publications %}
   <section>
     <header class="{% unless forloop.first %}mt1{% endunless %}">
       {% if pub.releaseDate.size > 0 %}
-        <p class="faded">
+        <p class="faded from-to">
           <span>
             <time datetime="{{ pub.releaseDate | date_to_xmlschema }}">{{ pub.releaseDate | date:from_to_format }}</time>,
             {{ pub.publisher }} {% if pub.contribution.size > 0 %}({{ pub.contribution }}){% endif %}
