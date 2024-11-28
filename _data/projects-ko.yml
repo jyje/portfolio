@@ -27,12 +27,12 @@ basics:
       url: https://stackshare.io/jyje/jyje-pro-stack
   contents:
     skills:
-      summary: >
+      note: >
         제 스킬 중 현업에 바로 쓸 수 있는 것은 강조하였습니다.
 
-    portfolio-ko:
+    projects-ko:
       title: 경력기술서
-      summary: >
+      note: >
         저는 MLOps 엔지니어 전제영 [🇬🇧 Jeayoung Jeon] 입니다. 
         **컴퓨터 비전 연구 경험**과 **클라우드 네이티브 엔지니어링 경험**의 시너지로 커리어를 성장시키고 있습니다.
         저의 이력은 다음과 같습니다:

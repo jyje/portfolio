@@ -37,7 +37,7 @@ basics:
       note: "The full list of my publications are available on [Google Scholar](https://scholar.google.com/citations?user=gwCPQM8AAAAJ&hl=ko)."
     resume:
       title: Résumé
-      summary: >
+      note: >
         My name is Jeayoung Jeon [전제영], and I'm an MLOps engineer in Seoul, South Korea. I also specialize in:
 
           - 🐳 Developing **MLOps (APIs, Pipelines)** and **AI/LLM Platforms** in cloud-native environments.
@@ -195,10 +195,10 @@ skills:
   -
     name: ML Backend
     keywords:
-      - FastAPI*
+      - Python/FastAPI*
       - Ollama*
-      - PostgreSQL*
       - Milvus*
+      - PostgreSQL*
       - Redis
   -
     name: Computer Vision

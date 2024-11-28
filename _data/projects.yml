@@ -27,12 +27,12 @@ basics:
       url: https://stackshare.io/jyje/jyje-pro-stack
   contents:
     skills:
-      summary: >
+      note: >
         Here are my skills and highlighted items are industry-ready.
 
-    portfolio:
+    projects:
       title: Project Portfolio
-      summary: >
+      note: >
         My name is Jeayoung Jeon [🇰🇷전제영], and I'm a software engineer in South Korea. 
         I'm developing my career with the synergy of **Computer Vision Research Experience** and **Cloud-Native Engineering Experience**.
         Here is my career history:
