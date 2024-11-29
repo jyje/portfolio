@@ -6,27 +6,10 @@ accent_image:
   overlay: false
 ---
 
-* toc
-{:toc}
-
-## ✨ Introduction
-
-My name is [Jeayoung Jeon]{:.heading.flip-title}, and I'm a software engineer living in South Korea.
-
-- I work at [MAXST]{:.heading.flip-title} as an **MLOps/DevOps Engineer** and **Cloud-Native Software Developer**.
-- I always study and work hard to solve big problems in my field.
-    - Run endurable and scalable applications in cloud-native environments.
-    - Create pipelines for computer vision problems in minimal cost.
-- In my spare time, I enjoy walking my dog and diving into the world of the **Kubernetes Community**.
-
-To know more about me, check out my documents below:
-
 <div class="screen-only">
-  {% include components/document-table.html %}
+  {% include components/profile-language-table.html %}
 </div>
-{:.note title="Documents"}
-
----
+{:.note title="Languages"}
 
 <div class="screen-only">
   <!-- <a href="/certifications" class="btn btn-sm btn-primary mt1">
@@ -39,52 +22,29 @@ To know more about me, check out my documents below:
   </a>
   <a href="https://blog.jyje.live" class="btn btn-sm btn-primary mt1">
     <small class="icon-bubble"></small>
-    Blog (Korean)
+    노션 블로그
+  </a>
+  <a href="https://codingnyan.tistory.com" class="btn btn-sm btn-primary mt1">
+    <small class="icon-bubble"></small>
+    티스토리 블로그
   </a>
 </div>
 {:.note title="External Links"}
 
+* toc
+{:toc}
 
-<div style="margin-top: 5rem;">
-  {% include components/dingbat.html %}
-</div>
+## ✨ 소개
 
+저는 서울,경기에서 활동하는 소프트웨어 엔지니어 [전제영(Jeayoung Jeon)]{:.heading.flip-title} 입니다.
 
-## 🧑🏼‍💻 Current Position
-
-Currently, I work at [MAXST]{:.heading.flip-title} in South Korea as a software engineer with two roles: **MLOps/DevOps Engineer** and **Cloud-Native Software Developer**. My major responsibilities and roles in the company include:
-
-- **as an MLOps Engineer 👨🏼‍🔬**
-    - <span class="emph btn-inline btn-primary">**ML Pipelines**</span> : Creating ML pipelines<sup>*1*</sup> for computer vision problems
-    - <span class="emph btn-inline btn-primary">**AutoML**</span> : Deploying Katib AutoML<sup>*1,2*</sup> for hyperparameter tuning
-    - <span class="emph btn-inline btn-primary">**Notebooks**</span> : Providing remote Python notebook kernels using JupyterHub
-
-- **as a DevOps Engineer 🧑🏼‍🔧**
-    - <span class="emph btn-inline btn-primary">**CI/CD Pipelines**</span> : Deploying applications using private<sup>*1*</sup> and public<sup>*3*</sup> CI/CD pipelines
-    - <span class="emph btn-inline btn-primary">**IaC**</span> : Managing public and on-premise clusters using IaC methodology<sup>*1,4*</sup>
-    - <span class="emph btn-inline btn-primary">**Monitoring**</span> : Monitoring applications using PLG stacks
-
-- **as a Cloud-Native Software Developer 🧑🏼‍💻**
-    - <span class="emph btn-inline btn-primary">**MSA**</span>
-        - Developing APIs<sup>*5*</sup> for life-cycle management of ML pipelines<sup>*1*</sup> 
-        - Developing applications ensuring high availability and scalability
-        - Adapting applications to cloud-native environments
-
-- **Challenges 🧐**
-    - <span class="emph btn-inline btn-primary">**MLOps**</span> : Distributed training of ML models using Kubernetes<sup>*1,2*</sup>
-    - <span class="emph btn-inline btn-primary">**DevOps**</span> : Optimizing power/cost of public<sup>*6*</sup> clusters using hybrid <sup>*public+onprem*</sup> clusters
-    - <span class="emph btn-inline btn-primary">**ChatOps**</span> : Upgrade chatbots with open-source LLMs<sup>*7*</sup> to automate boring and danger routines
-
-<i>
-  <sup>**1**</sup>: Argo Workflows,
-  <sup>**2**</sup>: Kubeflow,
-  <sup>**3**</sup>: Bitbucket Pipeline and GitHub Actions,
-  <sup>**4**</sup>: Ansible and Terraform,
-  <sup>**5**</sup>: FastAPI,
-  <sup>**6**</sup>: AWS EKS,
-  <sup>**7**</sup>: Llama 3 with Ollama
-</i>
-{:.faded}
+- 🧑‍💻 저는 MLOps/DevOps 와 AI 엔지니어링의 전문성을 가지고 있습니다. 
+    - **AR/디지털 트윈** 전문 업체 [MAXST]{:.heading.flip-title}에서 **MLOps/DevOps 엔지니어**로 근무했습니다.
+    - 학교에서 연구원으로 컴퓨터 비전, 자율주행 및 AI 연구를 다수 진행했습니다.
+- 💼 이 사이트는 저의 공식 프로필 입니다.
+    - 문서: 이 페이지에서 저의 [이력서]{:.heading.flip-title}와 [경력기술서]{:.heading.flip-title}를 찾아보실 수 있습니다.
+    - 포트폴리오: 이 사이트에서 저의 [포트폴리오]{:.heading.flip-title}와 성과들을 살펴보실 수 있습니다.
+    - 궁금하시거나 잘못된 정보가 있으면 [메일]{:.heading.flip-title}로 문의 부탁드립니다.
 
 
 <div style="margin-top: 5rem;">
@@ -92,46 +52,39 @@ Currently, I work at [MAXST]{:.heading.flip-title} in South Korea as a software 
 </div>
 
 
-## 💼 Career Details
+## 💼 상세 경력
 
-### 1. Timeline
+### 1. 타임라인
 
-Following is a brief summary of my career:
+제 경력을 시간 순서로 요약하였습니다:
 
-- <span class="emph btn-inline btn-primary">**2024 - Present**</span> : **Cloud-Native Software Development (BE, Infra)**
-- <span class="emph btn-inline btn-primary">**2023 - Present**</span> : **MLOps**, **DevOps** using **Kubernetes Clusters**
-- <span class="emph btn-inline btn-primary">**2018 - 2023**</span> : Research in **Visual-SLAM and Digital Twins**
+- <span class="emph btn-inline btn-primary">**2023 - Present**</span> : Engineering in **ML API, ML Pipeline**
+- <span class="emph btn-inline btn-primary">**2022 - Present**</span> : Engineering in **MLOps**, **DevOps**, **Hybrid Clusters**
+- <span class="emph btn-inline btn-primary">**2018 - 2023**</span> : Research in **Visual-SLAM, SfM and Digital Twins**
 - <span class="emph btn-inline btn-primary">**2012 - 2020**</span> : Research in **Automotive Computer Vision**
 - <span class="emph btn-inline btn-primary">**2012 - 2018**</span> : Research in **FPGA for Advanced Driver's Assistance Systems** 
 - <span class="emph btn-inline btn-primary">**2008 - 2018**</span> : Research in **Digital Signal Processing** and **Machine Learning**
 - <span class="emph btn-inline btn-primary">**2008 - 2012**</span> : Study in **Analog and Digital Communications**
 
-*The annual interval stands for the focused duration of my full efforts*
-{:.faded}
 
-### 2. Documents
+### 2. 경력 문서
 
-You can find more details about my career in the following documents:
+제 경력에 대한 자세한 내용은 다음 문서에서 확인할 수 있습니다:
 
-- [Résumé]{:.heading.flip-title}: Recent highlighted career
-  - [Résumé (in Korean 🇰🇷)]{:.heading.flip-title}: 경력기술서를 포함한 최근 이력
-<!-- - [Curriculum Vitae]{:.heading.flip-title}: Full details of my career and training -->
+- [이력서]{:.heading.flip-title}: 2페이지로 요약된 경력 문서 (이력, 학업, 성과, 자격 등)
+- [경력기술서]{:.heading.flip-title}: 프로젝트 중심으로 기술된 최근 경력 문서
+<!-- - [커리큘럼]{:.heading.flip-title}: 상세한 경력 및 학업 문서 -->
 
-<!-- - [커리큘럼]{:.heading.flip-title}: My CV in Korean -->
+위 모든 문서는 영어, 한국어로 각각 작성하였고 인쇄 및 PDF로 출력할 수 있습니다.
 
 
-### 3. Works
+### 3. 포트폴리오 문서
 
-I have worked on various projects related to **DevOps**, **MLOps**, and **Cloud-Native Software Development**.
+이 사이트에서는 제 프로젝트와 성과들에 대한 자세한 내용을 확인할 수 있습니다:
 
-See my [Works]{:.heading.flip-title} for more details about my projects and achievements.
-
-
-### 4. Certifications
-
-I have earned the following certifications related CNCF: [CKA]{:.heading.flip-title} / [CKAD]{:.heading.flip-title}.
-
-See my [Certifications]{:.heading.flip-title} for more details.
+- [Works]{:.heading.flip-title}: 업무 및 프로젝트 성과
+- [Certifications]{:.heading.flip-title}: 인증 및 자격증
+- [Articles]{:.heading.flip-title}: 모든 포트폴리오 문서
 
 
 <div style="margin-top: 5rem;">
@@ -139,32 +92,50 @@ See my [Certifications]{:.heading.flip-title} for more details.
 </div>
 
 
-## 📜 External Links
+## 📜 외부 링크
 
-- [Blog]{:.heading.flip-title}: My blog posts written in Korean
-- [Demo]{:.heading.flip-title}: Live demo powered by Raspberry Pi cluster (Can be down sometimes)
+- [데모]{:.heading.flip-title}: 라즈베리파이 클러스터를 통한 라이브 데모 (가끔 다운될 수 있습니다)
+- [노션 블로그]{:.heading.flip-title}: 한국어 공식 블로그. 이 사이트에 올리기 전 편집을 위한 블로그
+- [티스토리 블로그]{:.heading.flip-title}: 개인 블로그
 
 ![Logo of this site](/assets/icons/icon-128x128.png){:.centered style="margin-top:4rem; margin-bottom:4rem;"}
 
+
+<!-- profile -->
 [Jeayoung Jeon]: https://www.linkedin.com/in/jyje "LinkedIn Profile"
-[Profile]: / "my-profile --verbose"
+[전제영(Jeayoung Jeon)]: https://www.linkedin.com/in/jyje "LinkedIn Profile"
+[Profile]: /profile/ko "my-profile --verbose"
 
-[Résumé]: /profile/resume "my-profile resume"
-[Curriculum Vitae]: /profile/cv "my-profile cv"
-[CV]: /profile/cv "my-profile cv"
+<!-- resume -->
+[Résumé]: /profile/ko/resume "my-profile resume --korean"
+[이력서]: /profile/ko/resume "my-profile resume --korean"
 
-[Résumé (in Korean 🇰🇷)]: /profile/resume-ko "my-profile resume --ko"
-[커리큘럼]: /profile/cv-ko "my-profile cv --ko"
+<!-- projects-portfolio -->
+[Projects]: /profile/ko/projects "my-profile projects --korean"
+[경력기술서]: /profile/ko/projects "my-profile projects --korean"
 
-[Certifications]: ../certifications
-[Works]: ../works
-[Articles]: ../articles
+<!-- cv -->
+[Curriculum Vitae]: /profile/ko/cv "my-profile cv --korean"
+[CV]: /profile/ko/cv "my-profile cv --korean"
+[커리큘럼]: /profile/ko/cv "my-profile cv --ko"
+
+[Articles]: /articles
+[포트폴리오]: /articles
+[Certifications]: /certifications
+[Works]: /works
+
 [Blog]: https://blog.jyje.live "My blog"
 [MAXST]: https://www.linkedin.com/company/maxst "LinkedIn profile of MAXST Co., Ltd."
-[Demo]: https://app.jyje.live "Demo"
 
 [Mail]: mailto:jyjeon+portfolio@outlook.com?subject=To&nbsp;Jeayoung&nbsp;Jeon
+[메일]: mailto:jyjeon+portfolio@outlook.com?subject=To&nbsp;Jeayoung&nbsp;Jeon
 
-[CKA]: ../certifications/cka-certified-kubernetes-administrator "Certified Kubernetes Administrator"
-[CKAD]: ../certifications/ckad-certified-kubernetes-application-developer "Certified Kubernetes Application Developer"
+[CKAD]: /certifications/ckad-certified-kubernetes-application-developer "Certified Kubernetes Application Developer"
+[CKA]: /certifications/cka-certified-kubernetes-administrator "Certified Kubernetes Administrator"
+[CKS]: /certifications/cks-certified-kubernetes-security-specialist "Certified Kubernetes Security Specialist"
+[CAPA]: /certifications/capa-certified-argo-project-associate "Certified Argo Project Associate"
 
+[Demo]: https://app.jyje.live "Demo"
+[데모]: https://app.jyje.live "Demo"
+[노션 블로그]: https://blog.jyje.live "Notion Blog"
+[티스토리 블로그]: https://codingnyan.tistory.com "Tistory Blog"
