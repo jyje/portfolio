@@ -41,11 +41,11 @@ basics:
         My name is Jeayoung Jeon [전제영], and I'm an MLOps engineer in Seoul, South Korea. I also specialize in:
 
           - 🐳 Developing **MLOps (APIs, Pipelines)** and **AI/LLM Platforms** in cloud-native environments.
-          - 🧑‍🔧 Developing **Hybrid Kubernetes Clusters** for **High Availability** and **GPU Cost Reduction**.
+          - 🧑‍🔧 Building **Hybrid Kubernetes Clusters** for **High Availability** and **GPU Cost Reduction**.
           - 🧑‍🎓 Contributing decisions for **MLOps/DevOps** using backgrounds in **ML, Computer Vision, Automotive**.
 
         I'm always open to new challenges and opportunities for various fields including **Automotives** and **AI**. Please feel free to contact me.
-        If you're looking for my professional experience and details, please see my [**project portfolio**](https://jyje.live/profile/portfolio).
+        If you're looking for my professional experience and details, please see my [**projects**](https://jyje.live/profile/projects) and [**portfolio**](https://jyje.live/works).
 
 work:
   -
@@ -81,13 +81,13 @@ work:
       items:
         - header: Algorithm Research
           content: >
-            Reviewing computer vision algorithms in state-of-art papers and implementing prototypes.
+            Reviewing computer vision algorithms in state-of-art papers and implementing prototypes
         - header: Hybrid Clusters
           content: >
-            Building hybrid clusters with AWS EKS and on-premise Kubernetes for digital twin project.
+            Building hybrid clusters with AWS EKS and on-premise Kubernetes for digital twin project
         - header: DevOps
           content: >
-            Building on-premise clusters and providing data pipelines for digital twins.
+            Building on-premise clusters and data pipelines for company's inbound/outbound projects
   -
     company: "POSTECH"
     position: "🧑‍🎓 Graduate Student Researcher in Computer Vision"
@@ -101,15 +101,15 @@ work:
       items:
         - header: Computer Vision
           content: >
-            Research on hyperparameters for accurate and efficient computer vision algorithms.
+            Research on hyperparameters for accurate and efficient computer vision algorithms
         - header: Automotives
           content: >
-            Principal computer vision technologies for autonomous driving including ADAS and SLAM.
-            Participated in the development of the Korean government's incubation projects with various ADAS researches.
+            Principal computer vision technologies for autonomous driving including ADAS and SLAM;
+            Participated in the development of the Korean government's incubation projects with various ADAS researches
         - header: FPGA
           content: >
-            Efficiently implemented computer vision and machine learning algorithms with real-time parallel matrix processing.
-            This is very early type of GPU/NPU accelerator.
+            Efficiently implemented computer vision and machine learning algorithms with real-time parallel matrix processing;
+            SoC-type GPU/NPU accelerator
   # -
   #   company: "GIST"
   #   position: "Undergraduate Internship"
@@ -121,7 +121,6 @@ work:
   #   highlights:
   #     - Study on BioMEMSs equivarant to Electronic RLC circuits
   #     - Preview of Graduate Program and Experiments
-
 
 education:
   -
@@ -151,7 +150,6 @@ education:
     #   - Visual Light Communication
     #   - Electronic Communication with Complex Analysis
     #   - Finite Programmable Gate Array (FPGA)
-
 
 skills:
   - name: MLOps & LLMOps

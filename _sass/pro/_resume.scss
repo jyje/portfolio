@@ -125,13 +125,13 @@
 
   .work-header-result {
     @extend .color-transition;
-    border: 1.5px solid var(--accent-color-fill);
+    border: 1.5px solid var(--accent-color-two);
     border-radius: .3rem;
     display: inline-block;
     margin: .25rem .125rem;
     padding: .125rem .25rem;
     color: #FFF;
-    background-color: var(--accent-color-fill);
+    background-color: var(--accent-color-two);
     line-height: 1.4;
   }
 
@@ -314,7 +314,7 @@
     }
 
     .work-header-result {
-      color: var(--accent-color-fill);
+      color: var(--accent-color-two);
       font-weight: 700;
       line-height: normal;
     }

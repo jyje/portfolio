@@ -45,7 +45,7 @@ basics:
           - 🧑‍🎓 **머신러닝, 컴퓨터비전, 차량기술** 연구원 경험을 활용하여 **MLOps/DevOps** 관련 의사 결정에 기여할 수 있습니다.
 
         저는 **차량기술** 및 **AI**를 포함한 다양한 분야의 도전을 꿈꾸고 있습니다. 제가 기여할 수 있는 팀이 있다면 편하게 연락 부탁드립니다.
-        제 경력에 대한 자세한 내용이 궁금하시다면 제 [**경력기술서**](https://jyje.live/profile/portfolio-ko) 및 [**포트폴리오**](https://jyje.live/profile/portfolio-ko)를 참고해 주세요.
+        제 경력에 대한 자세한 내용이 궁금하시다면 제 [**경력기술서**](https://jyje.live/profile/ko/projects) 및 [**포트폴리오**](https://jyje.live/works)를 참고해 주세요.
 
 work:
   -
@@ -61,13 +61,13 @@ work:
       items:
         - header: MLOps
           content: >
-            사내 연구소와 협업하기 위해 오픈 소스를 활용하여 ML API, 데이터 파이프라인, AI 플랫폼을 개발하였습니다.
+            사내 연구소와 협업하기 위해 오픈 소스를 활용하여 ML API, 데이터 파이프라인, AI 플랫폼을 개발
         - header: LLMOps
           content: >
-            사내에 자체 구축한 RAG+LLM 시스템을 활용하여 사내 문서를 학습한 챗봇을 개발하였습니다.
+            사내에 자체 구축한 RAG+LLM 시스템을 활용하여 사내 문서를 학습한 챗봇 개발
         - header: SRE
           content: >
-            웹 서비스 안정성 엔지니어링과 머신러닝 워크로드 안정성 엔지니어링을 담당하였습니다.
+            웹 서비스 안정성 엔지니어링과 머신러닝 워크로드 안정성 엔지니어링 담당
   -
     company: MAXST
     position: "🧑‍💻 Software Engineer [선임연구원]"
@@ -81,13 +81,13 @@ work:
       items:
         - header: Algorithm Research
           content: >
-            Reviewing computer vision algorithms in state-of-art papers and implementing prototypes.
+            컴퓨터 비전 알고리즘 연구, 최신 논문 리뷰 및 프로토타입 구현
         - header: Hybrid Clusters
           content: >
-            Building hybrid clusters with AWS EKS and on-premise Kubernetes for digital twin project.
+            고가용/고효율의 디지털 트윈 플랫폼을 위한 하이브리드 클러스터(AWS EKS + 온프레미스) 구현
         - header: DevOps
           content: >
-            Building on-premise clusters and providing data pipelines for digital twins.
+            사내외 프로젝트를 위한 온프레미스 쿠버네티스 클러스터와 데이터 파이프라인 개발
   -
     company: "POSTECH"
     position: "🧑‍🎓 Graduate Student Researcher [대학원 연구원, 컴퓨터 비전 전공]"
@@ -101,15 +101,15 @@ work:
       items:
         - header: Computer Vision
           content: >
-            Research on hyperparameters for accurate and efficient computer vision algorithms.
+            고성능/고효율의 컴퓨터 비전 알고리즘을 위한 하이퍼파라미터 추정 연구
         - header: Automotives
           content: >
-            Principal computer vision technologies for autonomous driving including ADAS and SLAM.
-            Participated in the development of the Korean government's incubation projects with various ADAS researches.
+            컴퓨터 비전 기술을 이용한 차량자율주행 기술 (ADAS, SLAM) 연구;
+            자율주행기술 및 인재양성을 지원하는 국가과제 다수 참여
         - header: FPGA
           content: >
-            Efficiently implemented computer vision and machine learning algorithms with real-time parallel matrix processing.
-            This is very early type of GPU/NPU accelerator.
+            실시간 동시 행렬계산을 이용한 컴퓨터 비전 및 머신러닝 알고리즘 효율적 구현;
+            GPU/NPU 가속을 위한 단일칩 시스템 (SoC) 개발
   # -
   #   company: "GIST"
   #   position: "Undergraduate Internship"
@@ -121,7 +121,6 @@ work:
   #   highlights:
   #     - Study on BioMEMSs equivarant to Electronic RLC circuits
   #     - Preview of Graduate Program and Experiments
-
 
 education:
   -
@@ -151,7 +150,6 @@ education:
     #   - Visual Light Communication
     #   - Electronic Communication with Complex Analysis
     #   - Finite Programmable Gate Array (FPGA)
-
 
 skills:
   - name: MLOps & LLMOps

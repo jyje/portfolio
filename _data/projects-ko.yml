@@ -33,400 +33,80 @@ basics:
     projects-ko:
       title: 경력기술서
       note: >
-        저는 MLOps 엔지니어 전제영 [🇬🇧 Jeayoung Jeon] 입니다. 
-        **컴퓨터 비전 연구 경험**과 **클라우드 네이티브 엔지니어링 경험**의 시너지로 커리어를 성장시키고 있습니다.
-        저의 이력은 다음과 같습니다:
+        저는 서울, 경기에서 활동하는 MLOps 엔지니어 전제영[Jeayoung Jeon]입니다. 저는 다음의 전문성을 가지고 있습니다:
 
-         | 기간 | 기관 | 직급 | 역할 |
-         | --- | --- | --- | --- |
-         | <span style="font-family:monospace;">2021.01 - 2024.10 [3Y,10M]</span> | 맥스트, 기술사업부     | 책임 | MLOps/DevOps & 컴퓨터 비전 엔지니어 |
-         | <span style="font-family:monospace;">2012.03 - 2020.08 [8Y,6M]</span>  | 포항공대, 전기전자공학과 | 통합 | Automotive & 컴퓨터 비전 연구원       |
-         | <span style="font-family:monospace;">2008.03 - 2012.02 [4Y]</span>     | 금오공대, 전자공학부    | 학부 | 정보통신 및 디지털신호처리       |
+          - 🐳 클라우드 네이티브 환경의 **MLOps (API, Pipeline) 워크로드**과 **AI/LLM 플랫폼**을 구현/운영할 수 있습니다.
+          - 🧑‍🔧 **고가용성**과 **GPU 비용 절감**을 위한 **하이브리드 쿠버네티스 클러스터**를 개발/운영할 수 있습니다.
+          - 🧑‍🎓 **머신러닝, 컴퓨터비전, 차량기술** 연구원 경험을 활용하여 **MLOps/DevOps** 관련 의사 결정에 기여할 수 있습니다.
 
-        **소수 인원**으로 **최고의 성과**를 낼 수 있는 **협업 문화**와 **자동화**를 추구합니다.
-        그리고 **성능 향상**과 **비용 절감** 모두 실현하는 **최적의 방법**을 찾고 있습니다.
-        제 경험과 성과를 바탕으로 회사와 함께 성장하는 커리어를 희망합니다.
-        저에 대한 더 자세한 내용은 <a href='https://jyje.live'><b>포트폴리오</b></a>와 <a href='https://blog.jyje.live'><b>블로그</b></a>를 참조해 주세요.
-
-projects:
-  - position: "🧑‍💻 프로젝트 와이더스: 공간맵 및 AR 컨텐츠를 제공하는 B2B 디지털 트윈 플랫폼"
-    company: 맥스트
-    website: https://maxst.com
-    startDate: "2024-01-02"
-    endDate: "2024-10-31"
-    duration: 10 개월
-    roles:
-      description: ML 파이프라인 설계, API 개발, 하이브리드 클러스터 운영, 배포 의사결정 및 자동화
-      items:
-        - header: DevOps
-          content: >
-            웹 서버를 위한 Bitbucket CI 파이프라인과 ML 워크로드를 위한 Argo Workflows CI 파이프라인을 설계했습니다.
-        - header: Hybrid Cluster
-          content: >
-            AWS EKS와 온프레미스 쿠버네티스를 이용한 하이브리드 클러스터를 구축하였습니다.
-            ML 파이프라인은 온프레미스 클러스터에서 수행하여 GPU 비용을 최적화하였습니다.
-            비상용 파이프라인을 EKS+Karpenter로 구성하여 가용성을 높였습니다.
-        - header: ML Pipeline & API
-          content: >
-            Argo Workflows을 활용하여 공간맵 생성을 위한 ML 파이프라인을 설계했습니다.
-            ML 파이프라인을 관리하는 API 서버를 개발했습니다.
-    results:
-      description: >
-        서비스 개발 및 운영 기여 -> 하이브리드 클러스터, CI/CD, ML 파이프라인, ML API 개발
-      items:
-        - header: ML 파이프라인
-          content: 멀티 클러스터 환경에서 <b>ML API</b>와 <b>데이터 파이프라인</b> 설계. 클러스터 비용 <b>50%</b> 절감
-        - header: 하이브리드 인프라
-          content: 하이브리드 클러스터 구현 및 데브옵스 지원으로 서비스 <b>연간 가용성 96%, 다운타임 14일</b> 달성
-        - header: 배포 자동화
-          content: <a href='https://widearth.world'><b>와이더스</b></a> 프로젝트를 위한 CI/CD를 관리하였습니다. <b>3개월간 40회 이상의 배포</b>를 주도하였습니다.
-    skills:
-      description: 프로젝트 <a href='https://widearth.world'>와이더스</a>를 위한 핵심 스킬
-      items:
-        - AWS EKS
-        - Karpenter
-        - Python FastAPI
-        - Argo Workflows
-        - Argo CD
-
-
-  - position: "🧑‍🔬 MLOps: 최신 오픈소스 프로젝트를 이용한 온프레미스 MLOps 도입"
-    company: 맥스트
-    website: https://maxst.com
-    startDate: "2024-01-01"
-    endDate: "2024-06-30"
-    duration: 6 개월
-    roles:
-      description: 최신 오픈소스 프로젝트를 이용한 MLOps 플랫폼 개발
-      items:
-        # - header: Data Pipeline
-        #   content: >
-        #     Argo Workflows를 이용한 데이터 파이프라인을 개발하였습니다; 즉석 파이프라인, 사전빌드된 파이프라인
-        - header: AutoML
-          content: >
-            Katib와 Argo Workflows를 이용해 초매개변수를 튜닝하는 환경을 개발하였습니다.
-            연구원이 사전 빌드 없이 모델을 학습할 수 있도록 하였습니다.
-        - header: Distributed Training
-          content: >
-            Kubeflow의 Training Operator를 이용해 분산 학습 환경을 개발하였습니다.
-            연구원이 클러스터의 모든 GPU를 단일 학습에 활용할 수 있도록 하였습니다.
-        - header: JupyterHub
-          content: >
-            ML 연구원을 위한 주문형 Jupyter Notebook 관리 플랫폼을 개발하였습니다.
-            연구원이 필요한 연구환경을 즉시 구성할 수 있도록 하였습니다.
-    results:
-      description: >
-        'MLOps 도입' <- Kubeflow와 JupyterHub를 이용한 AI 연구 GPU 활용성 향상 [기여도 90%+]
-      items:
-        - header: 연구환경개선
-          content: >
-            AI 연구팀과 도입 검토 후, 온프레미스 연구 환경을 개선을 위한 최신 오픈소스적용
-        - header: GPU 활용성
-          content: >
-            24/7 GPU 활용으로 GPU 사용률 <b>3배 증가</b> 및 <b>800건 이상</b>의 AutoML 실험 수행
-    skills:
-      description: 온프레미스 MLOps 도입을 위한 핵심 스킬
-      items:
-        - Kubeflow/Katib
-        - Kubeflow/Training Operator
-        - Argo Workflows
-        - Grafana
-        - TensorBoard
-
-
-  - position: "🧑‍🔧 DevOps: Chatbot과 CI/CD를 제공하는 하이브리드 클러스터 기반의 DevOps 도입"
-    company: 맥스트
-    website: https://maxst.com
-    startDate: "2023-01-01"
-    endDate: "2023-12-31"
-    duration: 12 개월
-    results:
-      description: >
-        'DevOps 도입' <- AWS EKS와 온프레미스를 결합한 하이브리드 클러스터 개발 [기여도 75%+]
-      items:
-        - header: 고가용성 하이브리드 클러스터
-          content: >
-            온프레미스의 경제성을 이용해 순수 클라우드 인프라 대비 <b>50% 이상의 비용 절감</b>을 달성 
-        - header: DevOps 문화
-          content: >
-            앱 현대화 및 CI/CD를 포함한 DevOps 문화 전파. 모니터링을 통한 의사결정 지원
-    roles:
-      description: Hybrid 클러스터 개발 및 ChatOps와 GitOps를 이용한 DevOps 도입
-      items:
-        - header: Hybrid Cluster
-          content: >
-            AWS EKS와 온프레미스 쿠버네티스를 결합한 하이브리드 클러스터를 구축했습니다.
-            GPU 워크로드는 온프레미스 클러스터에서 실행하여 비용을 최적화했습니다.
-            웹 또는 백업 워크로드는 가용성을 높이기 위해 EKS로 구성했습니다.
-        - header: IaC
-          content: >
-            Terraform과 Ansible을 이용해 클러스터 인프라를 코드화하였습니다.
-            Terraform을 이용해 AWS EKS 클러스터를 구성하였습니다. 
-            Ansible 기반의 Kubespray를 이용해 온프레미스 클러스터를 구성하였습니다.
-        - header: CI/CD
-          content: >
-            Bitbucket Pipeline으로 협업을 위한 빠른 CI를 구성하였습니다.
-            온프레미스 Argo Workflows로 고성능의 커스텀 CI을 구성하였습니다.
-            Argo CD와 Slackbot을 이용한 GitOps로 CD를 구현하였습니다.
-            IaC도 CI/CD 및 파이프라인으로 구성하여 선언적 인프라를 구성하였습니다.
-    skills:
-      description: Hybrid DevOps를 위한 핵심 스킬
-      items:
-        - Kubernetes
-        - Argo Workflows
-        - AWS EKS
-        - IaC
-        - Terraform
-        - Python/FastAPI
-        - Python/Bolt (Slack)
-
-  - position: 📸 디지털 트윈 연구 컴퓨터 비전 엔지니어
-    company: 맥스트
-    website: https://maxst.com
-    startDate: "2021-01-16"
-    endDate: "2022-12-31"
-    duration: 2 년
-    results:
-      description: >
-        '가설 검증' <- 디지털 트윈 시스템을 위한 알고리즘 개발 [기여도 50%]
-      items:
-        - header: 디지털 트윈
-          content: 디지털 트윈 시스템을 위한 Visual-SLAM 및 ICP 알고리즘 연구/개발
-        - header: 자동화
-          content: 데이터 취득 및 분석을 위한 자동화 파이프라인 개발
-    roles:
-      description: 컴퓨터 비전 알고리즘 개발 및 디지털 트윈 시스템 구축
-      items:
-        - header: Visual-SLAM & SfM
-          content: >
-            Visual-SLAM을 위한 영상처리 알고리즘을 개발하였습니다.
-            영상처리 알고리즘을 이용해 디지털 트윈 시스템을 구축하였습니다.
-        - header: 전문연구요원
-          content: >
-            대학원 전공과 관련된 컴퓨터 비전 직군에 종사하며, 군 대체복무를 수행하였습니다.
-    skills:
-      description: 디지털 트윈 연구를 위한 핵심 스킬
-      items:
-        - Computer Vision
-        - SfM
-        - Visual-SLAM
-        - Python
-        - OpenCV
-        - .NET/C#
-        - Unity
-
-
-  - position: 🧑‍🎓 디지털 신호 처리 및 ADAS 연구원 (통합박사과정)
-    company: POSTECH
-    website: "https://eee.postech.ac.kr/"
-    startDate: "2012-01-03"
-    endDate: "2020-08-27"
-    duration: "8 년"
-    results:
-      description: >
-        '프로젝트 및 연구논문' <- 가상 환경에서의 자동차 시뮬레이션 및 ADAS On-Edge에 대한 연구를 수행
-      items:
-        - header: Digital Twins
-          content: "Virtual Visual-SLAM: 실제 환경과 가상 환경을 위한 동시적 위치 추정 및 지도 작성 방법"
-        - header: Edge ADAS
-          content: FPGA를 이용한 실시간 운전자 보조 시스템 개발 및 교통표지판 검출 알고리즘 연구
-    roles:
-      description: 디지털 신호처리와 컴퓨터 비전 분야에서 연구/개발
-      items:
-        - header: 2018 - 2020
-          content: >
-            <b>Computing and Control Engineering Lab. (Prof. SH, Han)</b>
-            <ul>
-              <li>
-                Thesis:
-                <a href="https://postech-primo.hosted.exlibrisgroup.com/permalink/f/1031dvf/82POSTECH_INST21232402040003286">
-                  Virtual Visual-SLAM for Real-World Environments
-                </a>
-              </li>
-            </ul>
-        - header: 2012 - 2018
-          content: >
-            <b>Advanced Signal Processing Lab. (Prod. H, Jeong)</b>
-            <ul>
-              <li>Real-Time Advanced Driver Assistance Systems using FPGA</li>
-              <li>
-                Research on Traffic Sign & Lane Terrain Detection
-                <ul>
-                  <li>
-                    1st Author:
-                    <a href="https://ieeexplore.ieee.org/abstract/document/6987934">
-                      Polygonal symmetry transform for detecting rectangular traffic signs (IEEE ICASS 2014)
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Research on Stereo Vision & Markov Random Fields
-                <ul>
-                  <li>
-                    3rd Author:
-                    <a href="https://ieeexplore.ieee.org/abstract/document/7351196">
-                      Cost aggregation table: A theoretic derivation on the Markov random field and its relation to message passing (IEEE ICIP 2015)
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-      # <li>다중 카메라를 위한 비주얼 SLAM 연구</li>
-      # <li>운전자 보조 시스템 (ADAS) 연구/개발</li>
-      # <li>스테레오 비전을 이용한 차량 카메라 온라인 정합 개발</li>
-      # <li>영상깊이추정을 위한 스테레오 비전 알고리즘 연구</li>
-    skills:
-      description: ADAS 연구를 위한 핵심 스킬
-      items:
-        - Computer Vision
-        - Digital Signal Processing
-        - Markov Random Fields
-        - ADAS
-        - Traffic Sign Detection
-        - Lane Terrain Detection
-        - MATLAB/Simulink
-        - C/C++
+        저는 **차량기술** 및 **AI**를 포함한 다양한 분야의 도전을 꿈꾸고 있습니다. 제가 기여할 수 있는 팀이 있다면 편하게 연락 부탁드립니다.
+        제 이력에 대해 궁금하시다면 제 [**이력서**](https://jyje.live/profile/ko/resume) 및 [**포트폴리오**](https://jyje.live/works)를 참고해 주세요.
 
 work:
-  - company: MAXST
-    position: 💼 책임연구원
-    website: https://maxst.com/ENG/main
+  -
+    company: MAXST
+    position: "🧑‍🔬 Intermediate Software Engineer [책임연구원]"
+    website: https://maxst.com
     startDate: "2024-03-01"
+    endDate: "2024-11-01"
+    duration: 9개월
     roles:
       description: >
-        Developed On-Premise Clusters Providing MLOps for Technology Division in MAXST
+        리드 MLOps/DevOps 엔지니어 at 맥스트 기술사업부
       items:
         - header: MLOps
           content: >
-            AI 팀을 위한 MLOps를 제공하는 온프레미스 클러스터 및 워크로드를 개발하였습니다.
-        - header: DevOps
+            사내 연구소와 협업하기 위해 오픈 소스를 활용하여 ML API, 데이터 파이프라인, AI 플랫폼을 개발
+        - header: LLMOps
           content: >
-            프로젝트에 DevOps 역할로 참여하여 서비스 출시에 기여하였습니다. CI/CD 구성, 앱 현대화 등 DevOps 문화를 전파하였습니다.
-        - header: 하이브리드 클러스터
+            사내에 자체 구축한 RAG+LLM 시스템을 활용하여 사내 문서를 학습한 챗봇 개발
+        - header: SRE
           content: >
-            AWS EKS와 온프레미스 쿠버네티스를 결합한 하이브리드 클러스터를 구현/운영 하였습니다. Ansible과 Kubespray를 이용해 온프레미스 클러스터를 구축하였습니다. Terraform을 이용해 AWS EKS 클러스터를 구성하였습니다.
-    skills:
-      items:
-        - Kubernetes
-        - On-Premise
-        - AWS
-        - Argo Workflows
-        - Data Pipeline
-        - CI/CD
-        - Computer Vision
-        - OpenCV
-
-
-  - company: MAXST
-    position: 💼 선임연구원
-    website: https://maxst.com/ENG/main
+            웹 서비스 안정성 엔지니어링과 머신러닝 워크로드 안정성 엔지니어링 담당
+  -
+    company: MAXST
+    position: "🧑‍💻 Software Engineer [선임연구원]"
+    website: https://maxst.com
     startDate: "2021-01-16"
     endDate: "2024-02-28"
-    duration: 3 Years
+    duration: 3년 2개월
     roles:
       description: >
-        Associate R&D Engineer for Technology Division in MAXST
+        연구원 & DevOps 엔지니어 at 맥스트 기술사업부
       items:
-        - header: 알고리즘연구
+        - header: Algorithm Research
           content: >
-            컴퓨터 비전 최신 논문을 리뷰하고 기술 검증을 위한 알고리즘을 구현하였습니다.
-        - header: 주니어 DevOps
+            컴퓨터 비전 알고리즘 연구, 최신 논문 리뷰 및 프로토타입 구현
+        - header: Hybrid Clusters
           content: >
-            하이브리드 클러스터를 구축하고 디지털 트윈을 위한 데이터 파이프라인을 제공하였습니다.
-        - header: 전문연구요원 (병역특례)
+            고가용/고효율의 디지털 트윈 플랫폼을 위한 하이브리드 클러스터(AWS EKS + 온프레미스) 구현
+        - header: DevOps
           content: >
-            군 복무 대체로 3년간 전공(컴퓨터 비전) 관련 분야에서 산업에 종사하였습니다.
-    skills:
+            사내외 프로젝트를 위한 온프레미스 쿠버네티스 클러스터와 데이터 파이프라인 개발
+  -
+    company: "POSTECH"
+    position: "🧑‍🎓 Graduate Student Researcher [대학원 연구원, 컴퓨터 비전 전공]"
+    website: "https://eee.postech.ac.kr/"
+    startDate: "2012-03-01"
+    endDate: "2020-08-28"
+    duration: 8년 6개월
+    roles:
+      description: >
+        통합박사과정 at 포항공과대학교 전기전자공학과
       items:
-        - Kubernetes
-        - On-Premise
-        - AWS
-        - Argo Workflows
-        - Data Pipeline
-        - CI/CD
-        - Computer Vision
-        - OpenCV
-
-
-skills:
-  - name: MLOps & LLMOps
-    keywords:
-      - Kubeflow*
-      - Data Pipeline*
-      - AutoML Katib*
-      - Training Operator*
-      - JupyterHub*
-      - PyTorch*
-      - OpenCV*
-      - Ollama*
-      - RAG*
-      - OpenAI*
-
-  - name: DevOps
-    keywords:
-      - Kubernetes*
-      - Argo Workflows*
-      - AWS EKS*
-      - Kubespray*
-      - IaC*
-      - Terraform*
-      - Ansible*
-      - Grafana*
-      - Karpenter*
-
-  - name: GitOps
-    keywords:
-      - CI/CD*
-      - Argo CD*
-      - Bitbucket Pipelines*
-      - GitHub Actions*
-      - Kaniko*
-      - Docker/Multi-stage*
-      - Slackbot*
-
-  - name: Application Development
-    keywords:
-      - Python/FastAPI*
-      - Unit Testing*
-      - .NET/WPF*
-      - .NET/MAUI*
-      - Unity
-
-  - name: Programming languages
-    keywords:
-      - Python*
-      - C#*
-      - C/C++
-      - Go
-      - MATLAB
-
-  - name: Tool, OS and Hardware
-    keywords:
-      - Visual Studio Code*
-      - Visual Studio*
-      - Jupyter Notebook
-      - MATLAB/Simulink
-      - Windows*
-      - WSL2*
-      - Ubuntu*
-      - Alpine*
-      - MacOS*
-      - ARM64/Raspberry Pi*
-      - AMD64/Bare Metal*
-      - FPGA
-
-  # - company: "POSTECH"
-  #   position: "Teaching Assistant"
-  #   website: "https://eee.postech.ac.kr/"
-  #   startDate: "2012-09-01"
-  #   endDate: "2014-02-28"
-  #   summary: >
-  #     While pursuing my graduate studies, I also served as a Teaching Assistant for various courses, including:
-  #   highlights:
-  #     - "[2012] EECE233 Signals and Systems"
-  #     - "[2013] EECE454 PC Interface"
-  # - company: "GIST"
+        - header: Computer Vision
+          content: >
+            고성능/고효율의 컴퓨터 비전 알고리즘을 위한 하이퍼파라미터 추정 연구
+        - header: Automotives
+          content: >
+            컴퓨터 비전 기술을 이용한 차량자율주행 기술 (ADAS, SLAM) 연구;
+            자율주행기술을 지원하는 국가과제 다수 참여
+        - header: FPGA
+          content: >
+            실시간 동시 행렬계산을 이용한 컴퓨터 비전 및 머신러닝 알고리즘 효율적 구현;
+            GPU/NPU 가속을 위한 단일칩 시스템 (SoC) 개발
+  # -
+  #   company: "GIST"
   #   position: "Undergraduate Internship"
   #   website: "https://me.gist.ac.kr/biomems/index.do"
   #   startDate: "2010-07-26"
@@ -436,8 +116,373 @@ skills:
   #   highlights:
   #     - Study on BioMEMSs equivarant to Electronic RLC circuits
   #     - Preview of Graduate Program and Experiments
+  # -
+  #   company: "GIST"
+  #   position: "Undergraduate Internship"
+  #   website: "https://me.gist.ac.kr/biomems/index.do"
+  #   startDate: "2010-07-26"
+  #   endDate: "2010-08-15"
+  #   summary: >
+  #     As an undergraduate student, I participated in an internship program at the BioMEMS Lab in GIST, where I engaged in the following tasks:
+  #   highlights:
+  #     - Study on BioMEMSs equivarant to Electronic RLC circuits
+  #     - Preview of Graduate Program and Experiments
+
+projects:
+  -
+    position: "🧑‍💻 프로젝트 와이더스: 디지털 트윈 & AR 콘텐츠 플랫폼"
+    company: 와이더스, 맥스트
+    website: https://widearth.world
+    startDate: "2024-01-01"
+    endDate: "2024-10-31"
+    duration: 10 개월
+    roles:
+      description: "리드 ML/Infra 담당 ~ MLOps/DevOps + ML Backend + SRE [기여도 75%]"
+      items:
+        - header: DevOps & SRE
+          content: >
+            IaC, GitOps, CI/CD 파이프라인,
+            모니터링, 로깅, 알림,
+            다중 배포 시나리오, 긴급 대응 
+        - header: Hybrid Clusters
+          content: >
+            AWS EKS + 베어메탈 쿠버네티스, API 게이트웨이 패턴,
+            동적 VM 관리, GPU 비용 최적화
+        - header: ML Workloads
+          content: >
+            ML APIs, ML 파이프라인,
+            데이터레이크, 도커라이징, 모델 CI/CD
+    results:
+      description: >
+        서비스 출시 성공 ~ 소수 정예, 모든 기능 구현, 가용성 향상, 비용 절약
+      items:
+        - header: 서비스 출시
+          content: 15인 총원, 8인 개발, <b>1인 인프라 담당</b>으로 기획과 개발에 참여하여 플랫폼 출시와 운영에 기여
+        - header: 고효율 ML
+          content: 하이브리드 인프라로 <b>300+개 공간맵</b>을 생성하였고, 기존 서비스 대비 클라우드 비용을 <b>1.5천만원(70%)</b> 절약
+        - header: 고가용 인프라
+          content: 하이브리드 클러스터 및 장애 대응으로 서비스 <b>연간 가용성 96%, 다운타임 14일</b>의 원만한 서비스를 구현
+    skills:
+      description: 프로젝트 와이더스를 위한 기술 스택
+      items:
+        - AWS EKS
+        - Kubespray
+        - Python/FastAPI
+        - Argo Workflows
+        - Argo CD
+        - Bitbucket Pipelines
+        - Karpenter
+  -
+    position: "🧑‍🔬 MLOps: 오픈소스 기반 온프레미스 MLOps 도입"
+    company: 맥스트
+    website: https://maxst.com
+    startDate: "2024-01-01"
+    endDate: "2024-06-30"
+    duration: 6 개월
+    roles:
+      description: "리드 MLOps 담당 ~ 기획 + VoC + ML Workloads/Infra + PoC + 운영 [기여도 90%]"
+      items:
+        - header: Kubeflow
+          content: >
+            Argo Workflows와 통합; AutoML, 분산학습, 모델 레지스트리 지원, 최대 16 GPU 가속
+        - header: JupyterHub
+          content: >
+            IDE와 통합된 원격 개발 환경 구현; 원격 GPU 노트북 지원, 최대 4 GPU 가속
+        - header: VectorDB
+          content: >
+            Milvus, ChromaDB, Feature Store, Vector Search 등 고가용 벡터 데이터베이스 구현
+        - header: ML Infra
+          content: >
+            CI/CD, NAS, 데이터 레이크, 이미지 레지스트리, 모니터링 등 ML 워크로드를 지원할 인프라 구현
+    results:
+      description: >
+        연구환경 개선, 리소스 통합 관리 ~ 리소스를 병합하여 가용성과 용량을 늘리고, 관리 자동화로 효율성은 유지
+      items:
+        - header: 인프라 개선
+          content: >
+            연구원들이 개별 관리하던 분산 서버들을 쿠버네티스로 통합하여 인프라 용량 및 안정성 확보. PoC를 통해 구성원의 MLOps 도입 의사결정 성공
+        - header: 연구환경 개선
+          content: >
+            연구원 2명의 VoC에서 10명으로 점차 사용자 확대. 지속적 MLOps 인프라 개선으로 기술부채 해소
+        - header: GPU 활용성 개선
+          content: >
+            GPU 사용률 <b>3배 증가</b> 및 <b>800건 이상</b>의 AutoML 실험 수행 결과로 상품화 성공
+    skills:
+      description: 온프레미스 MLOps 도입을 위한 기술 스택
+      items:
+        - Kubeflow
+        - Katib
+        - Training Operator
+        - Model Registry
+        - JupyterHub
+        - Argo Workflows
+        - Milvus
+        - ChromaDB
+        - Grafana
+        - TensorBoard
+  -
+    position: "🧑‍🔧 DevOps: 사내외 프로젝트를 위한 하이브리드 클러스터 개발"
+    company: 맥스트
+    website: https://maxst.com
+    startDate: "2022-12-01"
+    endDate: "2023-12-31"
+    duration: 13 개월
+    roles:
+      description: "DevOps 실무 담당 ~ 하이브리드 클러스터 개발 + CI/CD, 챗봇, 데이터 파이프라인 개발/운영 [기여도 50%]"
+      items:
+        - header: Hybrid Clusters
+          content: >
+            퍼블릭 클러스터, 온프레미스 쿠버네티스, 멀티 클러스터, API 게이트웨이, IaC, GPU 오퍼레이터
+        - header: CI/CD
+          content: >
+            퍼블릭 플랫폼 CI, 온프레미스 커스텀 CI, GitOps를 이용한 CD, 챗봇으로 결과/이슈 알림
+        - header: Pipelines
+          content: >
+            ML 연구를 위한 데이터 파이프라인, ML 추론을 위한 프로덕션 파이프라인
+    results:
+      description: >
+        하이브리드 클러스터 도입 ~ 온프레미스 리소스 활용성 증가 + 퍼블릭 리소스 비용 감소 + DevOps 문화 전파
+      items:
+        - header: 비용 절약
+          content: >
+            퍼블릭의 가용성은 유지하면서, 온프레미스의 경제성을 이용해 순수 클라우드 대비 <b>50% 이상의 비용 절약</b>
+        - header: 자원 활용
+          content: >
+            유휴 온프레미스 리소스의 <b>90% 활용</b>, 타부서 프로토타이핑을 위한 멀티클러스터 공급
+        - header: DevOps 문화
+          content: >
+            클라우드 네이티브 개발환경 도입. 앱 현대화 및 CI/CD를 포함한 DevOps 문화 전파. 모니터링을 통한 의사결정 지원
+    skills:
+      description: DevOps 및 하이브리드 클러스터를 위한 기술 스택
+      items:
+        - Kubernetes
+        - AWS EKS
+        - IaC
+        - Ansible
+        - Terraform
+        - CI/CD
+        - Bitbucket Pipeline Runners
+        - Argo CD
+        - Argo Workflows
+        - Python/FastAPI
+        - Python/Bolt (Slack)
+  -
+    position: 📸 컴퓨터 비전 엔지니어
+    company: 맥스트
+    website: https://maxst.com
+    startDate: "2021-01-16"
+    endDate: "2022-12-31"
+    duration: 2 년
+    roles:
+      description: 연구원 ~ 디지털 트윈 시스템을 위한 알고리즘 개발 및 프로토타이핑 [기여도 50%]
+      items:
+        - header: Digital Twins
+          content: >
+            360 영상을 3D 공간으로 변환하는 알고리즘 응용, 디지털 트윈 시스템 구현
+        - header: AR/XR
+          content: >
+            다양한 스마트글래스에 대한 카메라 정합 및 AR/XR 프로토타입 개발
+        - header: Automation
+          content: >
+            스크립트 기반, 영상 데이터 취득 및 분석을 위한 자동화 파이프라인 개발
+        - header: Military Service
+          content: >
+            대학원 전공과 관련된 컴퓨터 비전 직군에 종사하는 전문연구요원으로 군대체복무 수행
+    results:
+      description: >
+        컴퓨터 비전 알고리즘 개발 및 디지털 트윈 시스템 구축
+      items:
+        - header: 디지털 트윈
+          content: 디지털 트윈 시스템을 위한 Visual-SLAM 및 ICP 알고리즘 프로토타이핑
+        - header: 자동화
+          content: 데이터 취득 및 분석을 위한 자동화 파이프라인 공급 및 산출물 활용
+    skills:
+      description: 컴퓨터 비전 연구를 위한 기술 스택
+      items:
+        - Computer Vision
+        - Visual-SLAM
+        - SfM
+        - ICP
+        - Python
+        - OpenCV
+        - .NET/C#
+        - Unity
+  -
+    position: 🧑‍🎓 컴퓨터 비전 및 ADAS 연구원 (통합박사과정)
+    company: POSTECH
+    website: "https://eee.postech.ac.kr/"
+    startDate: "2012-01-03"
+    endDate: "2020-08-27"
+    duration: "8 년"
+    roles:
+      description: "대학원생 연구원 ~ 카메라 기반 컴퓨터 비전 및 자동차 기술 연구/개발 [full-time]"
+      items:
+        - header: 2018-2020
+          content: >
+            <i>제어 및 컴퓨팅 연구실 (Prof. 한수희)</i><br/>
+            <b>운전자 보조 시스템(ADAS) 및 동시적 위치 추정 및 지도 작성 방법(SLAM) 연구</b>
+            <ul>
+              <li>자율주행을 위한 다중 카메라 기반 SLAM 연구</li>
+              <li>ADAS과 SLAM을 위한 디지털 트윈 프로토타이핑 연구/개발</li>
+              <li>실제 환경과 가상 환경을 위한 동시적 위치 추정 및 지도 작성 방법</li>
+            </ul>
+        - header: 2012-2018
+          content: >
+            <i>첨단 신호 처리 연구실 (Prod. 정홍)</i><br/>
+            <b>운전자 보조 시스템(ADAS) 및 고성능-소형화(Edge) 컴퓨터 비전 연구</b>
+            <ul>
+              <li>고성능, 교효율의 FPGA를 이용한 실시간 ADAS 구현</li>
+              <li>FPGA를 이용한 실시간 교통 표지판 및 도로 탐지 시스템 개발</li>
+              <li>영상깊이추정을 위한 스테레오 비전 알고리즘 연구</li>
+              <li>스테레오 비전을 이용한 차량 카메라 온라인(실시간) 정합 개발</li>
+              <li>비용누적테이블(Cost Aggregation Table)을 이용한 컴퓨터 비전 최적화 알고리즘 연구</li>
+            </ul>
+    results:
+      description: >
+        프로젝트 및 연구논문 ~ 가상 환경에서의 자동차 시뮬레이션 및 ADAS On-Edge에 대한 연구를 수행
+      items:
+        - header: Digital Twins
+          content: "Virtual Visual-SLAM: 실제 환경과 가상 환경을 위한 동시적 위치 추정 및 지도 작성 방법"
+        - header: Edge ADAS
+          content: FPGA를 이용한 실시간 운전자 보조 시스템 개발 및 교통표지판 검출 알고리즘 연구
+    skills:
+      description: 컴퓨터 비전 및 ADAS 연구를 위한 기술 스택
+      items:
+        - Computer Vision
+        - Digital Signal Processing
+        - Automotives
+        - Autonomous Driving
+        - Advanced Driver Assistance Systems (ADAS)r90
+        - Finite Programmable Gate Array (FPGA)
+        - Traffic Sign Detection
+        - Lane Terrain Detection
+        - MATLAB/Simulink
+        - C/C++
+
+education:
+  -
+    institution: "Pohang University of Science and Technology (POSTECH)"
+    website: "https://eee.postech.ac.kr/"
+    area: "전기전자공학과, 컴퓨터비전 및 신호처리"
+    studyType: "🎓 석사학위(통합과정수료)"
+    startDate: "2012-03-01"
+    endDate: "2020-08-31"
+    gpa: "3.2/4.3"
+    thesis: "실제 환경과 가상 환경을 위한 동시적 위치 추정 및 지도 작성 방법"
+    # courses:
+    #   - Advanced Driver Assistance Systems (ADAS)
+    #   - Simultaneous Localization and Mapping (SLAM)
+    #   - Computer Vision Algorithms
+  -
+    institution: "Kumoh National Institute of Technology (kit)"
+    website: "https://eng.kumoh.ac.kr/eng"
+    area: "School of Electronic Engineering, Electronic Communication"
+    studyType: "🎓 학사학위"
+    startDate: "2008-03-01"
+    endDate: "2012-02-28"
+    gpa: "4.3/4.5"
+    thesis: "LED 조명을 이용한 수중 환경에서의 가시광 통신 연구, 2011"
+    # courses:
+    #   - Digital Signal Processing
+    #   - Visual Light Communication
+    #   - Electronic Communication with Complex Analysis
+    #   - Finite Programmable Gate Array (FPGA)
+
+skills:
+  - name: MLOps & LLMOps
+    keywords:
+      - Ollama*
+      - OpenAI API*
+      - RAG*
+      - AutoRAG*
+      - Kubeflow*
+      - AutoML Katib*
+      - Training Operator*
+      - JupyterHub*
+      - Data Pipelines*
+  -
+    name: DevOps & SRE
+    keywords:
+      - Kubernetes*
+      - On-Premise*
+      - AWS EKS*
+      - GCP GKE
+      - Hybrid Clusters*
+      - ARM64*
+      - IaC
+      - Kubespray
+      - Terraform
+      - Ansible
+      - Istio
+      - Grafana Stack
+      - Karpenter
+  -
+    name: CI/CD/CT/CT
+    keywords:
+      - Argo Projects*
+      - Bitbucket Pipelines*
+      - GitHub Actions*
+      - Self-Hosted Runner*
+      - Kaniko
+      - Buildah
+      - Locust
+      - Litmus
+  -
+    name: ML Backend
+    keywords:
+      - Python/FastAPI*
+      - Ollama*
+      - Milvus*
+      - PostgreSQL*
+      - Redis
+  -
+    name: Computer Vision
+    keywords:
+      - Automotives*
+      - SLAM*
+      - PyTorch*
+      - OpenCV*
+      - FPGA*
+  -
+    name: UI/UX
+    keywords:
+      - Slackbot*
+      - Python/FastUI*
+      - .NET/MAUI*
+      - .NET/WPF
+      - Unity
+  -
+    name: FinOps & BizOps
+    keywords:
+      - Kubecost
+      - Continuous BI
+  -
+    name: Programming languages
+    keywords:
+      - Python*
+      - .NET/C#*
+      - C/C++
+      - MATLAB
+
+  # -
+  #  name: Tool, OS and Hardware
+  #   keywords:
+  #     - Visual Studio Code*
+  #     - Visual Studio*
+  #     - Jupyter Notebook
+  #     - MATLAB/Simulink
+  #     - Windows*
+  #     - WSL2*
+  #     - Ubuntu*
+  #     - Alpine*
+  #     - MacOS*
+  #     - ARM64/Raspberry Pi*
+  #     - AMD64/Bare Metal*
+  #     - FPGA
+
 # volunteer:
-#   - organization: "CoderDojo"
+#   -
+#     organization: "CoderDojo"
 #     position: "Teacher"
 #     website: "https://coderdojo.com/"
 #     startDate: "2012-01-01"
@@ -445,99 +490,137 @@ skills:
 #     summary: "Global movement of free coding clubs for young people."
 #     highlights:
 #       - "Awarded 'Teacher of the Month'"
+
+awards:
+  - 
+    title: "🏅 알테라 디자인 컨테스트 2014, 우수상"
+    date: "2014-05-01"
+    awarder: "Intel-Altera Korea"
+    summary: "[System] FPGA, Vision-Based Driver Support Navigation System"
+  - 
+    title: "🏅 워크샵 최우수 포스터 세션"
+    date: "2014-05-01"
+    awarder: "KYUTECH-POSTECH 연합 워크샵"
+    summary: "[Poster] Iterative Polygon Detection using Harris Corner Space Method for Finding Traffic Signs"
+  -
+    title: "🥈 알테라 디자인 컨테스트 2013, 2위 입상"
+    date: "2013-05-01"
+    awarder: "Intel-Altera Korea"
+    summary: "[System] FPGA, Vision-Based Traffic Sign Recognition System"
+  -
+    title: "🏅 학부 수석 졸업"
+    date: "2012-02-28"
+    awarder: "금오공과대학교"
+    summary: "[수석 졸업] 전자공학부 최우수 졸업"
+  -
+    title: "🏅 NAVER 파워지식iN 2011"
+    date: "2012-01-01"
+    awarder: "NAVER"
+    summary: "[Activity] 지식봉사활동 `전기전자공학, 수학, 프로그래밍 분야`. 2009-2011 활동, 2012 선정 / 답변수 723, 채택 98.1%"
+    website: "https://m.site.naver.com/1y6qP"
+
+publications:
+  -
+    name: "🎓 실제 환경과 가상 환경을 위한 동시적 위치 추정 및 지도 작성 방법"
+    publisher: "POSTECH, 학위논문"
+    authors: "<u>전제영</u>"
+    contribution: "1저자"
+    releaseDate: "2020-07-24"
+    website: "http://postech.dcollection.net/common/orgView/200000341295"
+    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+  # -
+  #   name: "📄 Advanced Dehazing Method using Halo Map Based on Dark Channel Prior"
+  #   publisher: "ITC-CSCC"
+  #   authors: "SungYong Jo, JeongMok Ha, <u>Jeayoung Jeon</u>, Hong Jeong"
+  #   contribution: "3저자"
+  #   releaseDate: "2015-06-30"
+  #   website: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE06386175"
+  -
+    name: "📄 Cost Aggregation Table: Cost Aggregation Method Using Summed Area Table Scheme for Dense Stereo Correspondence"
+    publisher: "ISVC, Advances in Visual Computing, 10th International Symposium"
+    authors: "JeongMok Ha, <u>Jeayoung Jeon</u>, GiYeong Bae, SungYong Jo & Hong Jeong"
+    contribution: "2저자"
+    releaseDate: "2014-11-08"
+    website: "https://doi.org/10.1007/978-3-319-14249-4_78"
+  -
+    name: "📄 Polygonal symmetry transform for detecting rectangular traffic signs"
+    publisher: "ICCAS, 14th International Conference on Control, Automation and Systems"
+    authors: "<u>Jea Young Jeon</u>, JeongMok Ha, Sung Yong Jo, Gi Yeong Bae, Hong Jeong"
+    contribution: "1저자"
+    releaseDate: "2014-10-22"
+    website: "https://doi.org/10.1109/ICCAS.2014.6987934"
+  -
+    name: "🎓 LED 조명을 이용한 수중 환경에서의 가시광 통신 연구"
+    publisher: "ICS-KIEE"
+    authors: "이대희, 박기성, <u>전제영</u>, 양연모"
+    contribution: "공동 1저자"
+    releaseDate: "2011-04-22"
+    website: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE01951197"
+
 certificates:
-  - title: "🐈‍⬛ GitHub Foundations"
+  -
+    title: "🐈‍⬛ GitHub Foundations"
     organization: GitHub
     verified: "2024-11-20"
     expired: "2027-11-20"
-    description: >
-      GitHub을 이용한 버전 관리 및 협업 도구에 대한 전문성을 검증하는 자격입니다.
+    # description: >
+    #   A credential that verifies expertise in version control and collaboration tools using GitHub.
     website: https://www.credly.com/badges/876fa6b3-0b27-4ddf-bbb3-a9d853918566
-  - title: "🐙 CAPA: Certified Argo Project Associate"
-    organization: 리눅스 재단 (The Linux Foundation)
+  -
+    title: "🐙 CAPA: Certified Argo Project Associate"
+    organization: The Linux Foundation
     verified: "2024-09-13"
     expired: "2026-09-13"
-    description: >
-      쿠버네티스 네이티브 데브옵스 도구인 Argo 프로젝트에 대한 전문성을 검증하는 자격입니다.
+    # description: >
+    #   A credential that verifies expertise in the Kubernetes native DevOps tool, Argo Projects
     website: https://www.credly.com/badges/ee42c2c7-2ac3-411f-8713-cc26cbec8022
-  - title: "🐳 CKAD: Certified Kubernetes Application Developer"
-    organization: 리눅스 재단 (The Linux Foundation)
+  -
+    title: "🐳 CKAD: Certified Kubernetes Application Developer"
+    organization: The Linux Foundation
     verified: "2024-06-01"
     expired: "2026-06-01"
-    description: >
-      쿠버네티스 기반의 클라우드 네이티브 애플리케이션을 개발하는 전문성을 검증하는 자격입니다.
+    # description: >
+    #   A credential that verifies expertise in developing cloud-native applications using Kubernetes.
     website: https://www.credly.com/badges/9e072a3a-57d0-403e-8bef-5831d618675c
-  - title: "🐳 CKA: Certified Kubernetes Administrator"
-    organization: 리눅스 재단 (The Linux Foundation)
+  -
+    title: "🐳 CKA: Certified Kubernetes Administrator"
+    organization: The Linux Foundation
     verified: "2024-03-16"
     expired: "2027-03-16"
-    description: >
-      쿠버네티스 클러스터를 관리하는 전문성을 검증하는 자격입니다.
+    # description: >
+    #   A credential that verifies expertise in managing Kubernetes clusters.
     website: https://www.credly.com/badges/d944bde7-222a-4ce5-b4e6-4e6c84df0ef8
 
-education:
-  - institution: "포항공과대학교 (POSTECH)"
-    website: "https://eee.postech.ac.kr/"
-    area: "전기전자공학과, 신호처리 및 컴퓨터 비전 전공"
-    studyType: "🎓 석사학위 (통합박사과정 수료)"
-    startDate: "2012-03-01"
-    endDate: "2020-08-31"
-    gpa: "3.2/4.3"
-    # thesis: "가상 환경을 위한 Visual-SLAM 알고리즘"
-    # courses:
-    #   - 첨단 운전자 보조 시스템 (ADAS, Advanced Driver Assistance Systems)
-    #   - 비주얼 SLAM (Simultaneous Localization and Mapping)
-    #   - 컴퓨터 비전 알고리즘
-  - institution: "금오공과대학교 (kit)"
-    website: "https://eng.kumoh.ac.kr/eng"
-    area: "전자공학부, 전자통신 전공"
-    studyType: "🎓 학사학위"
-    startDate: "2008-03-01"
-    endDate: "2012-02-28"
-    gpa: "4.3/4.5"
-    # courses:
-    #   - 디지털 신호 처리 (DSP, Digital Signal Processing)
-    #   - 가시광 통신 (VLC, Visual Light Communication)
-    #   - 복소해석학 기반 전자통신 (Electronic Communication with Complex Analysis)
-    #   - FPGA 개발 (Finite Programmable Gate Array)
-# awards:
-#   - title: "Digital Compression Pioneer Award"
-#     date: "2014-11-01"
-#     awarder: "Techcrunch"
-#     summary: "There is no spoon."
-# publications:
-#   - name: "Video compression for 3d media"
-#     publisher: "Hooli"
-#     releaseDate: "2014-10-01"
-#     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-#     summary: "Innovative middle-out compression algorithm that changes the way we store data."
-
 languages:
-  - language: Korean
-    fluency: 원어민
-  - language: English
-    fluency: 일상대화, 업무
+  -
+    language: "Korean"
+    fluency: "Native"
+  -
+    language: "English"
+    fluency: "Working Proficiency"
 
 interests:
-  - name: "Edge"
+  -
+    name: "DevOps Culture"
     keywords:
-      - "Raspberry Pi Cluster"
-      - "Nvidia Jetson"
-      - "N100 Processor"
-  - name: "Cluster Optimization"
+      - "Coop First, Tech Next"
+      - "Automate as Possible"
+      - "Internal Development Platform"
+  -
+    name: "Cost Efficiency"
     keywords:
-      - "Hybrid Cluster"
-      - "Karpenter"
-      - "Spot Instances"
-  - name: "CNCF Projects"
+      - "AMD-to-ARM Transition"
+      - "Hybrid Clusters"
+  -
+    name: "Home Clusters"
     keywords:
-      - "Kubeflow"
-      - "Argo Projects"
-      - "LitmusChaos"
-
+      - "Raspberry Pies"
+      - "Personal RAG"
+      - "Live Demo"
 
 # references:
-#   - name: "Erlich Bachman"
+#   - 
+#     name: "Erlich Bachman"
 #     reference: >
 #       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
 #       Company proved that he will be a valuable addition to any company.

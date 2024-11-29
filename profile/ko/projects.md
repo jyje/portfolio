@@ -7,15 +7,15 @@ description: >
 hide_description: true
 data_file: projects-ko
 sections:
-  - projects
   - work
+  - projects
   # - volunteer
+  - skills
   - education
   - awards
   - publications
   - certifications
   # - references
-  - skills
   - interests
   - languages
 no_language_icons: true
